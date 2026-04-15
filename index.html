@@ -97,6 +97,16 @@
       font-size: 0.875rem;
     }
     .alert-warn strong { color: var(--amber); }
+    .alert-info {
+      background: #0d1e2e;
+      border: 1px solid #1a3a5a;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.875rem;
+    }
+    .alert-info strong { color: var(--accent); }
     h2 {
       font-size: 1.2rem;
       color: var(--accent2);
@@ -131,6 +141,7 @@
     }
     .news-card.new-item { border-left: 3px solid var(--green); }
     .news-card.correction { border-left: 3px solid var(--amber); }
+    .news-card.warning { border-left: 3px solid var(--orange); }
     .news-card h3 { margin-top: 0; }
     .table-wrap { overflow-x: auto; margin-bottom: 1.5rem; }
     table {
@@ -171,6 +182,7 @@
     .badge-usa { background: #1a2040; color: #82b1ff; border: 1px solid #2a3860; }
     .badge-warn { background: #2a1800; color: var(--orange); border: 1px solid #4a2800; }
     .badge-deal { background: #1a2e20; color: #a5d6a7; border: 1px solid #2e5a3e; }
+    .badge-fixed { background: #1a1a2e; color: #b39ddb; border: 1px solid #3a2e5e; }
     .picks-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -263,7 +275,7 @@
 
 <header>
   <h1>55" OLED TV UK Buyer's Guide</h1>
-  <p class="subtitle">Samsung S95F / S95H &bull; LG G6 / C5 &bull; Sony Bravia 8 II &bull; Panasonic Z95B &bull; Updated 15 April 2026</p>
+  <p class="subtitle">Samsung S95F / S95H &bull; LG G6 / C5 / G5 &bull; Sony Bravia 8 II &bull; Panasonic Z95B &bull; Updated 15 April 2026</p>
 </header>
 
 <nav>
@@ -276,14 +288,58 @@
 <!-- ==================== PRICES TAB ==================== -->
 <div id="prices" class="tab-panel active">
 
-  <p class="updated">Last updated: 15 April 2026 (late PM) &bull; All prices for 55" &bull; Verify before buying</p>
+  <p class="updated">Last updated: 15 April 2026 (afternoon, 2nd automated run) &bull; All prices for 55" &bull; Verify before buying</p>
 
   <div class="alert">
-    <strong>Top deals right now:</strong> LG C5 55" — <strong>£999 effective</strong> (Richer Sounds code <span class="code-pill">RSTV100</span> + £100 LG cashback). Panasonic Z95B — <strong>£1,399 effective</strong> (John Lewis + <span class="code-pill">PANA150OFF1500</span>). Samsung S95F from <strong>£1,499</strong>.
+    <strong>Top deals right now:</strong> LG C5 55" — <strong>£999 effective</strong> (Richer Sounds code <span class="code-pill">RSTV100</span> + £100 LG cashback). Panasonic Z95B — <strong>£1,399 effective</strong> (John Lewis + <span class="code-pill">PANA150OFF1500</span>). Samsung S90F from <strong>£879</strong> (Idealo) or £999 at Smiths TV. Samsung S95F from <strong>£1,499</strong>.
   </div>
 
   <div class="alert-warn">
-    <strong>Important panel note:</strong> The new 2026 <strong>LG C6 55"</strong> uses <strong>standard WOLED</strong> — a weaker panel than the 2025 C5's Tandem OLED evo. If you're considering upgrading from a C5, the C6 55" is not an upgrade. Consider the LG G6 55" (~£1,499 mid-May) or stick with the C5 at £999 instead.
+    <strong>⚠️ Panel downgrade warning:</strong> The new 2026 <strong>LG C6 55"</strong> uses <strong>standard WOLED</strong> — a weaker panel than the 2025 C5's Tandem OLED evo. At £1,700 pre-order, the C6 costs far more than the C5 at £999 effective, with an inferior panel. Consider the G6 or the 2025 C5/G5 instead.
+  </div>
+
+  <div class="alert-warn">
+    <strong>⚠️ Price correction (LG G6 55"):</strong> An earlier version of this page estimated the LG G6 55" at ~£1,499. The confirmed <strong>Amazon UK pre-order price is £2,199.99</strong> (shipping mid-May 2026). This is significantly more expensive — please disregard the earlier estimate.
+  </div>
+
+  <h2>Value Picks — April 2026</h2>
+  <div class="picks-grid">
+    <div class="pick-card">
+      <div class="pick-label">Best Overall Value</div>
+      <div class="pick-title">LG C5 55" (OLED55C56LB)</div>
+      <div class="pick-price">£999</div>
+      <div class="pick-note">Effective after Richer Sounds <span class="code-pill">RSTV100</span> (→£1,099) + £100 LG cashback. Tandem OLED evo — better panel than 2026 C6.</div>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Best Budget Samsung</div>
+      <div class="pick-title">Samsung S90F 55" (QE55S90F)</div>
+      <div class="pick-price">from £879</div>
+      <div class="pick-note">Idealo lowest. Smiths TV £999 with free 5-yr warranty. W-OLED, 144Hz, Vision AI. New record low.</div>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Best Flagship Samsung Now</div>
+      <div class="pick-title">Samsung S95F 55" (QE55S95F)</div>
+      <div class="pick-price">from £1,499</div>
+      <div class="pick-note">Or £1,699 at Samsung Direct with free £100 sound device (valid to 12 May). TV of the Year 2025. QD-OLED.</div>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Best Sony Deal</div>
+      <div class="pick-title">Sony Bravia 8 II 55"</div>
+      <div class="pick-price">from £1,666</div>
+      <div class="pick-note">Smart Home Sounds. Or Sony Direct £1,799 + up to £500 off a HTA soundbar (expires 28 Apr). QD-OLED.</div>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Best Panasonic Deal</div>
+      <div class="pick-title">Panasonic Z95B 55"</div>
+      <div class="pick-price">£1,399 eff.</div>
+      <div class="pick-note">John Lewis £1,549 + code <span class="code-pill">PANA150OFF1500</span> = £1,399. 5-year JL guarantee. Primary RGB Tandem OLED.</div>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Best New 2026 (Coming May)</div>
+      <div class="pick-title">LG G6 55"</div>
+      <div class="pick-price">£2,199.99</div>
+      <div class="pick-note">Amazon UK pre-order. Ships mid-May. Primary RGB Tandem OLED evo. 5-star TechRadar review. Premium pick.</div>
+    </div>
   </div>
 
   <h2>2026 Models — New This Year</h2>
@@ -297,43 +353,36 @@
           <td><strong>Samsung S95H</strong></td>
           <td>QD-OLED</td>
           <td><span class="badge badge-coming">TBC</span></td>
-          <td><span class="badge badge-usa">US on sale</span></td>
-          <td>US $2,499/55". UK price not announced. 35% brighter than S95F, Glare Free 3.0, Art Mode, FloatLayer Design. Expected imminently. <a href="https://www.pcguide.com/tv/samsung-s95h-oled-release-date-specs-price/">PC Guide</a></td>
+          <td><span class="badge badge-usa">US on sale $2,499</span></td>
+          <td>Shipping in US from 1 Apr 2026. UK price not announced. 35% brighter than S95F, Glare Free 3.0, Art Mode, FloatLayer Design. <a href="https://www.pcguide.com/tv/samsung-s95h-oled-release-date-specs-price/">PC Guide</a> | <a href="https://www.whathifi.com/tv-home-cinema/televisions/samsung-s95h">What Hi-Fi? hands on</a></td>
         </tr>
         <tr>
           <td><strong>Samsung S90H</strong></td>
           <td>W-OLED</td>
           <td>~£1,599–£1,699 est.</td>
-          <td><span class="badge badge-coming">End-Apr expected</span></td>
-          <td>65" confirmed £2,699 in UK. Glare Free. 15% brighter than S90F. NQ4 AI Gen3. <a href="https://www.t3.com/tech/tvs/samsung-s90h-review">T3</a></td>
+          <td><span class="badge badge-coming">UK end-Apr expected</span></td>
+          <td>65" confirmed £2,699 in UK. Glare Free. 15% brighter than S90F. NQ4 AI Gen3. <a href="https://www.t3.com/tech/tvs/samsung-s90h-review">T3 review</a></td>
         </tr>
         <tr>
           <td><strong>LG G6</strong></td>
           <td>Primary RGB Tandem OLED evo</td>
-          <td><strong>~£1,499</strong> est.</td>
+          <td><strong>£2,199.99</strong></td>
           <td><span class="badge badge-coming">Pre-order, mid-May</span></td>
-          <td>£200 cheaper than G5 at launch. 48"=£1,699, 65"=£2,999 confirmed. Ships mid-May. <a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums</a></td>
+          <td>Amazon UK pre-order. 5-star TechRadar review — "fantastic OLED, best for bright rooms." Ships mid-May. <a href="https://www.techradar.com/televisions/lg-g6-oled-tv-review">TechRadar review</a> | <a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums</a></td>
         </tr>
         <tr>
-          <td><strong>LG C6</strong> <span class="badge badge-warn">Panel downgrade</span></td>
+          <td><strong>LG C6</strong> <span class="badge badge-warn">Panel downgrade vs C5</span></td>
           <td>Standard WOLED</td>
-          <td><strong>£1,496</strong></td>
+          <td><strong>£1,699.99</strong></td>
           <td><span class="badge badge-coming">Pre-order, mid-May</span></td>
-          <td>⚠️ 55" uses standard WOLED — weaker than C5's Tandem OLED evo. C6H designation is 77"/83" only. <a href="https://tftcentral.co.uk/news/lg-oled-c6-series-full-specs-and-pricing-released">TFTCentral</a></td>
+          <td>Amazon UK pre-order. ⚠️ 55" uses standard WOLED — weaker than C5's Tandem OLED evo. C6H (77"/83") has Tandem OLED — not 55". <a href="https://tftcentral.co.uk/news/lg-oled-c6-series-full-specs-and-pricing-released">TFTCentral</a></td>
         </tr>
         <tr>
           <td><strong>Panasonic Z86C</strong></td>
           <td>OLED SE (budget)</td>
           <td><span class="badge badge-coming">TBC</span></td>
-          <td>Announced</td>
-          <td>UK version (Fire TV). 55" and 65" only. LG OLED SE panel — budget tier, below OLED evo. <a href="https://www.oled-info.com/panasonic-z85c-z86c">OLED-Info</a></td>
-        </tr>
-        <tr>
-          <td><strong>Panasonic Z95B / Z90B (2026)</strong></td>
-          <td>Primary RGB Tandem OLED</td>
-          <td><span class="badge badge-coming">TBC</span></td>
-          <td>Announced</td>
-          <td>2026 Panasonic flagship continuation. No UK price or date yet. <a href="https://www.displayspecifications.com/en/news/bf42f6c">DisplaySpecifications</a></td>
+          <td>Announced, no price</td>
+          <td>UK's <strong>only new 2026 Panasonic OLED</strong>. Runs Fire TV. 55" and 65" only. LG OLED SE panel — budget tier, below OLED evo. <a href="https://www.whathifi.com/tv-home-cinema/televisions/panasonic-z86c-z85c">What Hi-Fi? hands on</a> | <a href="https://www.oled-info.com/panasonic-z85c-z86c">OLED-Info</a></td>
         </tr>
       </tbody>
     </table>
@@ -351,47 +400,47 @@
           <td>QD-OLED</td>
           <td>£2,499</td>
           <td><strong>from £1,499</strong></td>
-          <td><a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Multiple retailers</a> / <a href="https://www.samsung.com/uk/tvs/oled-tv/s95f-55-inch-oled-4k-smart-tv-qe55s95fatxxu/">Samsung Direct £1,699</a> + free £100 sound device</td>
+          <td><a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Multiple retailers (Idealo)</a> / <a href="https://www.samsung.com/uk/tvs/oled-tv/s95f-55-inch-oled-4k-smart-tv-qe55s95fatxxu/">Samsung Direct £1,699</a> + free £100 sound device (to 12 May)</td>
         </tr>
         <tr>
-          <td><strong>Samsung S90F</strong></td>
+          <td><strong>Samsung S90F</strong> <span class="badge badge-deal">Record low</span></td>
           <td>W-OLED</td>
           <td>£1,899</td>
-          <td><strong>~£1,163</strong> (w/ TV10)</td>
-          <td><a href="https://www.currys.co.uk/products/samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html">Currys</a> £1,299 + code <span class="code-pill">TV10</span> 10% off</td>
+          <td><strong>from £879</strong></td>
+          <td><a href="https://www.idealo.co.uk/compare/207075487/samsung-qe55s90f.html">Idealo</a> / <a href="https://www.smithstv.co.uk/samsung-qe55s90f-1000010024.html">Smiths TV £999</a> (free 5-yr warranty, 8 units remaining) / <a href="https://pricespy.co.uk/product.php?p=14917573">PriceSpy from £928</a></td>
         </tr>
         <tr>
           <td><strong>Samsung S85F</strong></td>
           <td>QD-OLED</td>
           <td>£1,199</td>
           <td><strong>from ~£799</strong></td>
-          <td><a href="https://www.richersounds.com/samsung-qe55s85f/">Richer Sounds</a> with code (check checkout)</td>
+          <td><a href="https://www.richersounds.com/">Richer Sounds</a> with code (check checkout)</td>
         </tr>
         <tr>
           <td><strong>Sony Bravia 8 II</strong></td>
           <td>QD-OLED</td>
           <td>£2,499</td>
-          <td><strong>from £1,665</strong></td>
-          <td><a href="https://www.smarthomesounds.co.uk/sony-bravia-8-ii-55">Smart Home Sounds</a> / <a href="https://www.currys.co.uk/products/sony-bravia-8-ii-55-qdoled-4k-hdr-ai-smart-tv-k55xr8m25bp-10282779.html">Currys £1,799</a></td>
+          <td><strong>from £1,666</strong></td>
+          <td><a href="https://www.smarthomesounds.co.uk/sony-bravia-8-ii-55">Smart Home Sounds £1,665.83</a> / <a href="https://www.currys.co.uk/products/sony-bravia-8-ii-55-qdoled-4k-hdr-ai-smart-tv-k55xr8m25bp-10282779.html">Currys £1,799</a> / <a href="https://www.sony.co.uk/bravia/products/bravia-8m2">Sony Direct £1,799</a></td>
         </tr>
         <tr>
           <td><strong>Panasonic Z95B</strong></td>
           <td>Primary RGB Tandem OLED</td>
           <td>£2,299</td>
           <td><strong>£1,399 effective</strong></td>
-          <td><a href="https://www.johnlewis.com/browse/electricals/televisions/view-all-tvs/panasonic/z95b/_/N-6srfZ1z140zjZq2tn">John Lewis</a> £1,549 + code <span class="code-pill">PANA150OFF1500</span></td>
+          <td><a href="https://www.johnlewis.com/panasonic-tv-55z95beb-2025-oled-hdr-4k-ultra-hd-smart-fire-tv-55-inch-with-dolby-atmos-black/p113741613">John Lewis £1,549</a> + code <span class="code-pill">PANA150OFF1500</span> = £1,399 (+ 5-yr JL guarantee)</td>
         </tr>
         <tr>
           <td><strong>LG G5</strong> (stand)</td>
           <td>Primary RGB Tandem OLED</td>
-          <td>£1,699</td>
+          <td>~£1,999</td>
           <td><strong>£1,799</strong></td>
-          <td><a href="https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html">Smiths TV</a> (was £1,999, free 5-yr LG warranty)</td>
+          <td><a href="https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html">Smiths TV</a> (was £1,999, free 5-yr LG warranty) / <a href="https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs">Marks Electrical £1,799</a> (Marks+ £1,739)</td>
         </tr>
         <tr>
           <td><strong>LG G5</strong> (wall mount)</td>
           <td>Primary RGB Tandem OLED</td>
-          <td>£1,699</td>
+          <td>~£1,799</td>
           <td><strong>£1,499</strong></td>
           <td><a href="https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html">Smiths TV</a> (was £1,799, free 5-yr LG warranty)</td>
         </tr>
@@ -400,431 +449,480 @@
           <td>Tandem OLED evo</td>
           <td>~£1,499</td>
           <td><strong>£999 effective</strong></td>
-          <td><a href="https://www.richersounds.com/lg-oled55c56lb/">Richer Sounds</a> code <span class="code-pill">RSTV100</span> → £1,099, then £100 LG cashback</td>
+          <td><a href="https://www.richersounds.com/lg-oled55c56lb/">Richer Sounds £1,199</a> → code <span class="code-pill">RSTV100</span> = £1,099 → + £100 LG cashback = <strong>£999</strong>. Also at <a href="https://markselectrical.co.uk/">Marks Electrical £1,199</a></td>
         </tr>
         <tr>
           <td><strong>LG B5</strong></td>
-          <td>Standard WOLED</td>
+          <td>WOLED</td>
           <td>~£999</td>
           <td><strong>from ~£642</strong></td>
-          <td>Various</td>
+          <td>Various retailers</td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <h2>Discount Codes &amp; Cashback (April 2026)</h2>
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr><th>Code / Offer</th><th>Retailer</th><th>Applies To</th><th>Saving</th><th>Expires</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="code-pill">RSTV100</span></td>
-          <td>Richer Sounds</td>
-          <td>LG C5 55" + selected LG TVs</td>
-          <td>£100 off at checkout</td>
-          <td>Check at checkout</td>
-        </tr>
-        <tr>
-          <td>LG £100 Cashback</td>
-          <td>LG direct (claim after purchase)</td>
-          <td>LG C5 55"</td>
-          <td>£100 after redemption</td>
-          <td>Check LG cashback portal</td>
-        </tr>
-        <tr>
-          <td><span class="code-pill">RSTV60</span></td>
-          <td>Richer Sounds</td>
-          <td>Sony Bravia 8 II 55"</td>
-          <td>~£60 off</td>
-          <td>Check at checkout</td>
-        </tr>
-        <tr>
-          <td><span class="code-pill">TV10</span></td>
-          <td>Currys</td>
-          <td>Selected OLED TVs (incl. Samsung S90F)</td>
-          <td>10% off marked price</td>
-          <td>Easter sale — check validity</td>
-        </tr>
-        <tr>
-          <td><span class="code-pill">PANA150OFF1500</span></td>
-          <td>John Lewis</td>
-          <td>Panasonic Z95B 55"</td>
-          <td>£150 off (£1,549 → £1,399)</td>
-          <td>Check at JL checkout</td>
-        </tr>
-        <tr>
-          <td><span class="code-pill">LGSAVE10</span></td>
-          <td>Marks Electrical</td>
-          <td>Selected LG OLED TVs</td>
-          <td>10% off at checkout</td>
-          <td>Check validity</td>
-        </tr>
-        <tr>
-          <td>Free £100 sound device</td>
-          <td>Samsung Direct</td>
-          <td>Samsung S95F + select TVs</td>
-          <td>Free sound device worth £100</td>
-          <td class="expires">12 May 2026</td>
-        </tr>
-        <tr>
-          <td>25% off Sony soundbars</td>
-          <td>Currys</td>
-          <td>Any Sony TV purchase</td>
-          <td>25% off selected Sony soundbars</td>
-          <td class="expires">28 April 2026</td>
-        </tr>
-        <tr>
-          <td>£200–£500 Sony soundbar deal</td>
-          <td>Sony Direct</td>
-          <td>Sony Bravia 8 II — HTA8000/9000/9M2</td>
-          <td>£200 / £300 / £500 off soundbar</td>
-          <td class="expires">28 April 2026</td>
-        </tr>
-        <tr>
-          <td>£70/£100 Sony soundbar deal</td>
-          <td>Sony / Currys</td>
-          <td>HTAN7 Neckband / HTS60 Soundbar with Sony TV</td>
-          <td>£70 / £100 off</td>
-          <td>30 June 2026</td>
-        </tr>
-        <tr>
-          <td>£150 trade-in</td>
-          <td>Currys</td>
-          <td>Panasonic Z95B</td>
-          <td>£150 off with any old TV trade-in</td>
-          <td>Check validity</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <h2>Retailer-by-Retailer Deals</h2>
 
-  <h2>Retailer-by-Retailer Deals (April 2026)</h2>
-
-  <h3><a href="https://www.richersounds.com/tv-projectors/tvs-accessories/tvs/oled-tvs/">Richer Sounds</a> — 6-Year VIP Guarantee</h3>
+  <h3>Samsung Direct (samsung.com/uk)</h3>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Model</th><th>Price</th><th>Deal</th></tr></thead>
       <tbody>
-        <tr><td>LG C5 55"</td><td><strong>£1,199</strong> → <strong>£999 effective</strong></td><td>Code <span class="code-pill">RSTV100</span> = £1,099, + £100 LG cashback. Best 55" OLED deal right now.</td></tr>
-        <tr><td>Samsung S95F 55"</td><td><strong>£1,699</strong></td><td>At least 50% off selected soundbars with qualifying TVs.</td></tr>
-        <tr><td>Samsung S85F 55"</td><td>£949 → <strong>~£799</strong></td><td>Check for discount code at checkout. 50% off soundbars.</td></tr>
-        <tr><td>Sony Bravia 8 II 55"</td><td><strong>~£1,739</strong></td><td>Code <span class="code-pill">RSTV60</span> for additional saving.</td></tr>
+        <tr>
+          <td><a href="https://www.samsung.com/uk/tvs/oled-tv/s95f-55-inch-oled-4k-smart-tv-qe55s95fatxxu/">S95F 55"</a></td>
+          <td><strong>£1,699</strong></td>
+          <td><strong>Free sound device worth £100</strong> when bought with select TVs. Valid to <span class="expires">12 May 2026</span>. + £150 trade-in. 0% finance.</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.samsung.com/uk/tvs/oled-tv/s90f-55-inch-oled-4k-smart-tv-qe55s90faexxu/">S90F 55"</a></td>
+          <td><strong>£1,199</strong> (was £1,599)</td>
+          <td>Currently showing as out of stock. Free £100 sound device may apply. Check for restock.</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <h3><a href="https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html">Smiths TV</a> — Free Next Day Delivery</h3>
+  <h3>Richer Sounds (richersounds.com) — 6-Year VIP Guarantee</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Model</th><th>Price</th><th>Deal</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><a href="https://www.richersounds.com/lg-oled55c56lb/">LG C5 55"</a></td>
+          <td><strong>£1,199</strong></td>
+          <td>Code <span class="code-pill">RSTV100</span> = <strong>£1,099 at checkout</strong> → then claim <strong>£100 LG cashback</strong> = <strong>£999 effective</strong>. Outstanding Tandem OLED evo at an exceptional price.</td>
+        </tr>
+        <tr>
+          <td>Samsung S95F 55"</td>
+          <td><strong>£1,699</strong></td>
+          <td>At least 50% off selected soundbars with qualifying TV purchase.</td>
+        </tr>
+        <tr>
+          <td>Samsung S85F 55"</td>
+          <td><strong>£949</strong></td>
+          <td>Code <span class="code-pill">RSTV150</span> for additional saving (~£799 effective). Verify code validity at checkout.</td>
+        </tr>
+        <tr>
+          <td>Sony Bravia 8 II 55"</td>
+          <td><strong>~£1,739</strong></td>
+          <td>Code <span class="code-pill">RSTV60</span> for additional saving. Verify at checkout.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Smiths TV (smithstv.co.uk) — Free Next Day Delivery</h3>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Model</th><th>Price</th><th>Was</th><th>Deal</th></tr></thead>
       <tbody>
-        <tr><td>Samsung S90F 55"</td><td><strong>£1,299</strong></td><td>£1,899</td><td>Save £600. Free 5-year Samsung warranty (redeem within 90 days).</td></tr>
-        <tr><td>LG C5 55" (OLED55C56LB)</td><td><strong>£1,199</strong></td><td>£1,499</td><td>Save £300. Free 5-year LG warranty (D&amp;G via Smiths).</td></tr>
-        <tr><td>LG G5 55" stand (OLED55G56LS)</td><td><strong>£1,799</strong></td><td>£1,999</td><td>Save £200. Free 5-year LG warranty.</td></tr>
-        <tr><td>LG G5 55" wall (OLED55G54LW)</td><td><strong>£1,499</strong></td><td>£1,799</td><td>Save £300. Free 5-year LG warranty.</td></tr>
+        <tr>
+          <td><a href="https://www.smithstv.co.uk/samsung-qe55s90f-1000010024.html">Samsung S90F 55"</a></td>
+          <td><strong>£999</strong></td>
+          <td>£1,299</td>
+          <td>Save £300. Free 5-yr Samsung warranty (claim within 90 days). ⚠️ Only 8 units remaining (15 Apr 2026).</td>
+        </tr>
+        <tr>
+          <td>LG C5 55" (OLED55C56LB)</td>
+          <td><strong>£1,199</strong></td>
+          <td>£1,499</td>
+          <td>Save £300. Free 5-yr LG warranty.</td>
+        </tr>
+        <tr>
+          <td>LG G5 55" (stand, OLED55G56LS)</td>
+          <td><strong>£1,799</strong></td>
+          <td>£1,999</td>
+          <td>Save £200. Free 5-yr LG warranty.</td>
+        </tr>
+        <tr>
+          <td>LG G5 55" (wall, OLED55G54LW)</td>
+          <td><strong>£1,499</strong></td>
+          <td>£1,799</td>
+          <td>Save £300. Free 5-yr LG warranty.</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <h3><a href="https://www.currys.co.uk/tv-and-audio/televisions/tvs/oled-tvs/55-64">Currys</a> — Code TV10 for 10% Off Selected OLEDs</h3>
+  <h3>Currys (currys.co.uk)</h3>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Model</th><th>Price</th><th>Deal</th></tr></thead>
       <tbody>
-        <tr><td>Samsung S90F 55"</td><td>£1,299 → <strong>~£1,163</strong></td><td>Code <span class="code-pill">TV10</span> = 10% off marked price at checkout.</td></tr>
-        <tr><td>Sony Bravia 8 II 55"</td><td><strong>£1,799</strong></td><td>Was £2,499. <strong>25% off selected Sony soundbars</strong> with any Sony TV — <span class="expires">expires 28 April 2026</span>.</td></tr>
-        <tr><td>Panasonic Z95B 55"</td><td><strong>~£1,699</strong></td><td>£150 off with any old TV trade-in.</td></tr>
-        <tr><td>All OLED TVs</td><td>—</td><td>Up to <strong>£250 off selected JBL soundbars</strong> with any TV.</td></tr>
+        <tr>
+          <td><a href="https://www.currys.co.uk/products/samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html">Samsung S90F 55"</a></td>
+          <td><strong>~£1,163</strong> (w/ code)</td>
+          <td>Listed ~£1,299. Code <span class="code-pill">TV10</span> = 10% off at checkout. Confirm eligibility.</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.currys.co.uk/products/sony-bravia-8-ii-55-qdoled-4k-hdr-ai-smart-tv-k55xr8m25bp-10282779.html">Sony Bravia 8 II 55"</a></td>
+          <td><strong>£1,799</strong></td>
+          <td><strong>25% off selected Sony soundbars</strong> with any Sony TV purchase. Valid to <span class="expires">28 April 2026</span>. Up to £250 off selected JBL soundbars with any TV.</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.currys.co.uk/products/panasonic-z95b-55-oled-4k-hdr-smart-fire-tv-with-freely-tv55z95beb-10284833.html">Panasonic Z95B 55"</a></td>
+          <td><strong>~£1,699</strong></td>
+          <td>£150 off when you trade-in any old TV. Code <span class="code-pill">TV10</span> may apply.</td>
+        </tr>
+        <tr>
+          <td>Any LG TV</td>
+          <td>—</td>
+          <td>Up to <strong>£250 off selected JBL soundbars</strong> when bought with any TV.</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <h3><a href="https://www.sony.co.uk/store/category/televisions">Sony Direct UK</a></h3>
+  <h3>Sony Direct UK (sony.co.uk)</h3>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Model</th><th>Price</th><th>Deal</th></tr></thead>
       <tbody>
-        <tr><td>Sony Bravia 8 II 55"</td><td><strong>£1,799</strong></td><td>Soundbar deals: £200 off HTA8000, £300 off HTA9000, £500 off HTA9M2 (<span class="expires">to 28 Apr 2026</span>). Also: £70 off HTAN7, £100 off HTS60 (to 30 Jun 2026). Trade-in available.</td></tr>
+        <tr>
+          <td><a href="https://www.sony.co.uk/bravia/products/bravia-8m2">Sony Bravia 8 II 55"</a></td>
+          <td><strong>£1,799</strong></td>
+          <td>
+            <strong>£200 off HTA8000</strong> soundbar. Valid to <span class="expires">28 Apr 2026</span>.<br>
+            <strong>£300 off HTA9000</strong> soundbar. Valid to <span class="expires">28 Apr 2026</span>.<br>
+            <strong>£500 off HTA9M2 Theatre Quad</strong>. Valid to <span class="expires">28 Apr 2026</span>.<br>
+            <strong>£70 off HTAN7 Neckband</strong>. Valid to <span class="expires">30 Jun 2026</span>.<br>
+            <strong>£100 off HTS60 Soundbar</strong>. Valid to <span class="expires">30 Jun 2026</span>.
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <h3><a href="https://www.smarthomesounds.co.uk/sony-bravia-8-ii-55">Smart Home Sounds</a></h3>
+  <h3>Smart Home Sounds (smarthomesounds.co.uk)</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Model</th><th>Price</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><a href="https://www.smarthomesounds.co.uk/sony-bravia-8-ii-55">Sony Bravia 8 II 55"</a></td>
+          <td><strong>£1,665.83</strong></td>
+          <td>UK's lowest confirmed online price. 0% finance. Price match guarantee.</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.smarthomesounds.co.uk/samsung-s90f-55">Samsung S90F 55"</a></td>
+          <td><strong>£787.50</strong></td>
+          <td>Listed at this price — verify stock at checkout.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>John Lewis (johnlewis.com) — 5-Year Guarantee on all TVs</h3>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Model</th><th>Price</th><th>Deal</th></tr></thead>
       <tbody>
-        <tr><td>Sony Bravia 8 II 55"</td><td><strong>£1,665</strong></td><td>Lowest confirmed online price (PriceSpy verified). 0% finance. Price match guarantee.</td></tr>
+        <tr>
+          <td><a href="https://www.johnlewis.com/panasonic-tv-55z95beb-2025-oled-hdr-4k-ultra-hd-smart-fire-tv-55-inch-with-dolby-atmos-black/p113741613">Panasonic Z95B 55"</a></td>
+          <td><strong>£1,549</strong></td>
+          <td>Use code <span class="code-pill">PANA150OFF1500</span> = <strong>£1,399 effective</strong>. 5-year guarantee included.</td>
+        </tr>
+        <tr>
+          <td>Sony Bravia 8 II 55"</td>
+          <td><strong>£1,999</strong></td>
+          <td>5-year guarantee included.</td>
+        </tr>
+        <tr>
+          <td>LG G5 55" (wall)</td>
+          <td>Listed</td>
+          <td>Save £600 on LG US70TR soundbar when bought with TV.</td>
+        </tr>
+        <tr>
+          <td>LG G5 55" (stand)</td>
+          <td>Listed</td>
+          <td>Save £400 on LG US70TR soundbar when bought with TV.</td>
+        </tr>
+        <tr>
+          <td>Samsung S95F 55"</td>
+          <td>Listed</td>
+          <td>£100 cashback or £200 cashback when bought with qualifying soundbar.</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <h3><a href="https://www.johnlewis.com/browse/electricals/televisions/view-all-tvs/oled/size=55-to-60/_/N-6srfZ1z0rgkwZ1z0ojbg">John Lewis</a> — 5-Year Guarantee on All TVs</h3>
+  <h3>Marks Electrical (markselectrical.co.uk) — Free Next Day Delivery</h3>
   <div class="table-wrap">
     <table>
-      <thead><tr><th>Model</th><th>Price</th><th>Deal</th></tr></thead>
+      <thead><tr><th>Model</th><th>Price</th><th>Marks+ Price</th><th>Deal</th></tr></thead>
       <tbody>
-        <tr><td>Panasonic Z95B 55"</td><td>£1,549 → <strong>£1,399 eff.</strong></td><td>Code <span class="code-pill">PANA150OFF1500</span> = £150 off. 5-year JL guarantee. Excellent value.</td></tr>
-        <tr><td>Sony Bravia 8 II 55"</td><td><strong>£1,999</strong></td><td>Save £100. 5-year guarantee.</td></tr>
-        <tr><td>LG G5 55" (wall)</td><td>Listed</td><td>Save £600 on LG US70TR Soundbar when bought with this TV.</td></tr>
-        <tr><td>LG G5 55" (stand)</td><td>Listed</td><td>Save £400 on LG US70TR Soundbar when bought with this TV.</td></tr>
-        <tr><td>Samsung S95F 55"</td><td>Listed</td><td>£100 cashback (or £200 cashback with qualifying soundbar).</td></tr>
-        <tr><td>Samsung S90F 55"</td><td>Listed</td><td>Save £120.</td></tr>
+        <tr>
+          <td>LG G5 55" stand (OLED55G56LS)</td>
+          <td><strong>£1,799</strong></td>
+          <td>£1,739</td>
+          <td>Codes: <span class="code-pill">LGSAVE10</span> / <span class="code-pill">LGSAVE15</span> for additional saving.</td>
+        </tr>
+        <tr>
+          <td>LG G5 55" wall (OLED55G54LW)</td>
+          <td><strong>£1,799</strong></td>
+          <td>£1,739</td>
+          <td>⚠️ Low stock. Codes: <span class="code-pill">LGSAVE10</span> / <span class="code-pill">LGSAVE15</span>.</td>
+        </tr>
+        <tr>
+          <td>LG C5 55" (OLED55C56LB)</td>
+          <td><strong>£1,199</strong></td>
+          <td>—</td>
+          <td>Code <span class="code-pill">LGSAVE10</span> at checkout. Marks+ may offer additional saving.</td>
+        </tr>
       </tbody>
     </table>
   </div>
+  <p style="font-size:0.8rem;color:var(--muted);margin-top:-1rem;margin-bottom:1.5rem;">Additional codes at Marks Electrical: <span class="code-pill">CLEAR-7</span> (7% off selected clearance), <span class="code-pill">MEMULTIBUY</span> (10% off 2 items / 15% off 3+ in same order).</p>
 
-  <h3><a href="https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs">Marks Electrical</a> — Free Next Day Delivery</h3>
+  <h3>Peter Tyson (petertyson.co.uk) — Authorised Dealer, 0% Finance</h3>
   <div class="table-wrap">
     <table>
-      <thead><tr><th>Model</th><th>Price</th><th>Deal</th></tr></thead>
+      <thead><tr><th>Model</th><th>Notes</th></tr></thead>
       <tbody>
-        <tr><td>LG C5 55"</td><td><strong>£1,399</strong> (£1,299 Marks+)</td><td>Code <span class="code-pill">LGSAVE10</span> for additional discount at checkout.</td></tr>
-        <tr><td>LG B5 55"</td><td><strong>£899</strong> (~£849 Marks+)</td><td>Code <span class="code-pill">LGSAVE10</span> for additional saving.</td></tr>
+        <tr>
+          <td><a href="https://petertyson.co.uk/sony-k55xr8m25bp-55-bravia-8-ii-oled-4k-google-tv-2025">Sony Bravia 8 II 55"</a></td>
+          <td>Authorised Sony dealer. 0% finance available. Verify current price directly.</td>
+        </tr>
+        <tr>
+          <td>LG G5 55"</td>
+          <td>Stocked. 0% finance and buy now pay later. Verify current price.</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <h3><a href="https://petertyson.co.uk/tvprojectors/television-selection/oled">Peter Tyson</a> — Authorised Dealer, 0% Finance</h3>
-  <p>Promotions valid <strong>8 April – 30 June 2026</strong>. 0% finance and buy now, pay later available. Stocks LG G5 55" (stand) and Sony Bravia 8 II 55". Authorised Sony and LG dealer. Check website for current prices.</p>
+  <h2>All Active Discount Codes (April 2026)</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Code</th><th>Retailer</th><th>Applies To</th><th>Saving</th><th>Expires</th></tr></thead>
+      <tbody>
+        <tr><td><span class="code-pill">RSTV100</span></td><td>Richer Sounds</td><td>LG C5 55" + selected LG TVs</td><td>£100 off at checkout</td><td>Verify at checkout</td></tr>
+        <tr><td><span class="code-pill">RSTV60</span></td><td>Richer Sounds</td><td>Sony Bravia 8 II 55"</td><td>£60 off at checkout</td><td>Verify at checkout</td></tr>
+        <tr><td><span class="code-pill">RSTV150</span></td><td>Richer Sounds</td><td>Samsung S85F 55"</td><td>~£150 off</td><td>Verify at checkout</td></tr>
+        <tr><td>LG £100 Cashback</td><td>LG (claim direct)</td><td>LG C5 55"</td><td>£100 after redemption</td><td>Check LG website</td></tr>
+        <tr><td><span class="code-pill">TV10</span></td><td>Currys</td><td>Selected OLEDs (incl. S90F)</td><td>10% off marked price</td><td>Verify at checkout</td></tr>
+        <tr><td>Free £100 sound device</td><td>Samsung Direct</td><td>S95F + select TVs</td><td>Free device worth £100</td><td><span class="expires">12 May 2026</span></td></tr>
+        <tr><td>25% off Sony soundbars</td><td>Currys</td><td>Any Sony TV purchase</td><td>25% off selected soundbars</td><td><span class="expires">28 Apr 2026</span></td></tr>
+        <tr><td>£200/£300/£500 soundbar</td><td>Sony Direct</td><td>Bravia 8 II + HTA range</td><td>£200/£300/£500 off HTA8000/9000/9M2</td><td><span class="expires">28 Apr 2026</span></td></tr>
+        <tr><td>£70/£100 soundbar</td><td>Sony/Currys</td><td>Sony TV purchase</td><td>£70 off HTAN7, £100 off HTS60</td><td><span class="expires">30 Jun 2026</span></td></tr>
+        <tr><td><span class="code-pill">PANA150OFF1500</span></td><td>John Lewis</td><td>Panasonic Z95B 55"</td><td>£150 off £1,549</td><td>Verify at checkout</td></tr>
+        <tr><td><span class="code-pill">LGSAVE10</span></td><td>Marks Electrical</td><td>LG OLED TVs</td><td>10% off at checkout</td><td>Verify at checkout</td></tr>
+        <tr><td><span class="code-pill">LGSAVE15</span></td><td>Marks Electrical</td><td>LG OLED TVs</td><td>Additional LG saving</td><td>Verify at checkout</td></tr>
+        <tr><td><span class="code-pill">CLEAR-7</span></td><td>Marks Electrical</td><td>Selected clearance items</td><td>7% off</td><td>Verify at checkout</td></tr>
+        <tr><td><span class="code-pill">MEMULTIBUY</span></td><td>Marks Electrical</td><td>2+ items in same order</td><td>10% (x2) / 15% (x3+)</td><td>Verify at checkout</td></tr>
+        <tr><td>£150 trade-in</td><td>Currys</td><td>Panasonic Z95B</td><td>£150 off with old TV trade-in</td><td>Verify at checkout</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-  <h2>Panel Type Guide</h2>
+  <h2>Panel Type Guide — Know Before You Buy</h2>
   <div class="panel-guide">
     <div class="panel-item">
       <div class="panel-name">QD-OLED</div>
-      Samsung S95F, S95H, S85F; Sony Bravia 8 II. Quantum Dot + OLED. Best colour saturation &amp; peak brightness. Excellent for dark rooms and bright content.
+      <p>Samsung S95F, S95H, S85F, Sony Bravia 8 II. Quantum Dot layer over OLED. Highly saturated colours, very bright. Best overall picture quality.</p>
     </div>
     <div class="panel-item">
       <div class="panel-name">Primary RGB Tandem OLED evo</div>
-      LG G5, G6; Panasonic Z95B. LG's premium panel. Brightest OLED overall. Best for bright rooms and HDR highlights.
+      <p>LG G5, G6, Panasonic Z95B. LG's premium panel. Brightest OLED type. Best for bright rooms. Two stacked OLED layers.</p>
     </div>
     <div class="panel-item">
       <div class="panel-name">Tandem OLED evo</div>
-      LG C5. Good brightness, excellent contrast. Better than standard WOLED. The C5 outperforms the new C6 55" despite being older.
+      <p>LG C5 (55"). Good brightness. A step below G-series. The C5 55" is <strong>better</strong> than the 2026 C6 55". Great all-rounder.</p>
     </div>
     <div class="panel-item">
       <div class="panel-name">Standard W-OLED</div>
-      LG C6 (55"), Samsung S90F/S90H. Good contrast, lower brightness. Entry-level OLED performance. The C6 55" is a step down from the C5 despite being a newer model.
+      <p>LG C6 55", Samsung S90F/S90H. Classic WOLED panel. Excellent contrast but lower peak brightness. C6 55" is a step down from C5.</p>
     </div>
     <div class="panel-item">
-      <div class="panel-name">OLED SE (budget)</div>
-      Panasonic Z86C (2026). LG's new budget OLED panel — removes polariser for lower cost. Lowest brightness tier. Good entry point for OLED.
+      <div class="panel-name">OLED SE</div>
+      <p>Panasonic Z86C. LG's 2026 budget panel. Removes polariser layer to reduce cost. Lower brightness than OLED evo. Entry-level.</p>
     </div>
   </div>
 
-  <h2>Value Picks — April 2026</h2>
-  <div class="picks-grid">
-    <div class="pick-card">
-      <div class="pick-label">Best deal overall</div>
-      <div class="pick-title">LG C5 55"</div>
-      <div class="pick-price">£999</div>
-      <div class="pick-note">Effective after <span class="code-pill">RSTV100</span> + £100 LG cashback at Richer Sounds. Tandem OLED evo — better panel than new 2026 C6.</div>
-    </div>
-    <div class="pick-card">
-      <div class="pick-label">Best Panasonic</div>
-      <div class="pick-title">Panasonic Z95B 55"</div>
-      <div class="pick-price">£1,399</div>
-      <div class="pick-note">Effective at John Lewis with code <span class="code-pill">PANA150OFF1500</span>. Primary RGB Tandem OLED + 5-year guarantee.</div>
-    </div>
-    <div class="pick-card">
-      <div class="pick-label">Best Samsung now</div>
-      <div class="pick-title">Samsung S95F 55"</div>
-      <div class="pick-price">from £1,499</div>
-      <div class="pick-note">TV of the Year 2025. QD-OLED flagship. Samsung Direct: £1,699 + free £100 sound device (to 12 May).</div>
-    </div>
-    <div class="pick-card">
-      <div class="pick-label">Best Sony deal</div>
-      <div class="pick-title">Sony Bravia 8 II 55"</div>
-      <div class="pick-price">from £1,665</div>
-      <div class="pick-note">Smart Home Sounds. Or Currys £1,799 + 25% off Sony soundbar (expires 28 Apr). QD-OLED + Google TV.</div>
-    </div>
-    <div class="pick-card">
-      <div class="pick-label">Best new 2026 buy</div>
-      <div class="pick-title">LG G6 55"</div>
-      <div class="pick-price">~£1,499</div>
-      <div class="pick-note">Launches mid-May. £200 cheaper than G5 at launch. Primary RGB Tandem OLED evo — the best panel tier.</div>
-    </div>
-    <div class="pick-card">
-      <div class="pick-label">Wait for</div>
-      <div class="pick-title">Samsung S95H 55"</div>
-      <div class="pick-price">TBC</div>
-      <div class="pick-note">UK launch imminent. US $2,499. 35% brighter than S95F, Glare Free 3.0, Art Mode. Likely £2,299–£2,499 at UK launch.</div>
-    </div>
-  </div>
-
-  <h2>Price History</h2>
+  <h2>Price History Highlights</h2>
   <div class="table-wrap">
     <table>
-      <thead><tr><th>Model</th><th>Launch RRP</th><th>Best Now</th><th>Saving</th></tr></thead>
+      <thead><tr><th>Model</th><th>Launch Price</th><th>Now</th><th>Saving</th></tr></thead>
       <tbody>
-        <tr><td>Samsung S95F 55"</td><td>£2,499 (Apr 2025)</td><td>from £1,499</td><td><strong>−£1,000</strong></td></tr>
-        <tr><td>Samsung S90F 55"</td><td>£1,899 (2025)</td><td>~£1,163 (TV10 @ Currys)</td><td><strong>−£736</strong></td></tr>
-        <tr><td>Sony Bravia 8 II 55"</td><td>£2,499 (Jun 2025)</td><td>from £1,665</td><td><strong>−£834</strong></td></tr>
-        <tr><td>Panasonic Z95B 55"</td><td>£2,299 (2025)</td><td>£1,399 effective (JL code)</td><td><strong>−£900</strong></td></tr>
-        <tr><td>LG G5 55" wall</td><td>£1,699 (Mar 2025)</td><td>£1,499 (Smiths TV)</td><td><strong>−£200</strong></td></tr>
-        <tr><td>LG C5 55"</td><td>~£1,499 (2025)</td><td>£999 effective (RS deal)</td><td><strong>−£500</strong></td></tr>
+        <tr><td>Samsung S95F 55"</td><td>£2,499</td><td>from £1,499</td><td>−£1,000</td></tr>
+        <tr><td>Samsung S90F 55"</td><td>£1,899</td><td>from £879</td><td>−up to £1,020</td></tr>
+        <tr><td>Sony Bravia 8 II 55"</td><td>£2,499</td><td>from £1,666</td><td>−£833</td></tr>
+        <tr><td>LG G5 55" (wall)</td><td>~£1,799</td><td>£1,499 (Smiths)</td><td>−£300</td></tr>
+        <tr><td>LG C5 55"</td><td>~£1,499</td><td>£999 effective</td><td>−£500</td></tr>
+        <tr><td>Panasonic Z95B 55"</td><td>£2,299</td><td>£1,399 effective</td><td>−£900</td></tr>
       </tbody>
     </table>
   </div>
 
-  <h2>Sources &amp; Live Price Trackers</h2>
-  <ul class="source-list">
-    <li><a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Idealo — S95F 55"</a></li>
-    <li><a href="https://www.idealo.co.uk/compare/207074568/sony-bravia-8-ii-k55xr8m25bp.html">Idealo — Bravia 8 II 55"</a></li>
-    <li><a href="https://www.idealo.co.uk/compare/206211153/lg-oled-g5-2025.html">Idealo — LG G5 2025</a></li>
-    <li><a href="https://pricespy.co.uk/product.php?p=14811860">PriceSpy — Bravia 8 II 55"</a></li>
-    <li><a href="https://www.richersounds.com/tv-projectors/tvs-accessories/tvs/oled-tvs/">Richer Sounds OLED TVs</a></li>
-    <li><a href="https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html">Smiths TV OLED TVs</a></li>
-    <li><a href="https://www.currys.co.uk/tv-and-audio/televisions/tvs/oled-tvs/55-64">Currys 55" OLEDs</a></li>
-    <li><a href="https://www.johnlewis.com/browse/electricals/televisions/view-all-tvs/oled/size=55-to-60/_/N-6srfZ1z0rgkwZ1z0ojbg">John Lewis 55" OLEDs</a></li>
-    <li><a href="https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs">Marks Electrical OLEDs</a></li>
-    <li><a href="https://petertyson.co.uk/tvprojectors/television-selection/oled">Peter Tyson OLEDs</a></li>
-    <li><a href="https://www.techradar.com/deals/best-oled-tv-prices-deals">TechRadar OLED deals</a></li>
-    <li><a href="https://www.whathifi.com/best-buys/tvs/best-oled-tvs">What Hi-Fi? Best OLEDs</a></li>
+  <h2>Watch List</h2>
+  <ul class="watchlist">
+    <li><strong>Samsung S95H UK pricing</strong> — US on sale $2,499 from 1 Apr; UK launch imminent but no price yet</li>
+    <li><strong>Samsung S90H UK launch</strong> — expected end-April; 65" confirmed £2,699; 55" est. £1,599–£1,699</li>
+    <li><strong>LG G6 ships mid-May</strong> — pre-order £2,199.99 Amazon UK; getting 5-star reviews</li>
+    <li><strong>LG C6 ships mid-May</strong> — pre-order £1,699.99; ⚠️ standard WOLED panel — weaker than C5</li>
+    <li><strong>Panasonic Z86C price</strong> — no price yet; Fire TV, OLED SE panel (budget), 55" and 65" only</li>
+    <li><strong>Sony soundbar deal expires 28 April</strong> — up to £500 off HTA range at Sony Direct — act soon</li>
+    <li><strong>Currys TV10 code</strong> — 10% off selected OLEDs; confirm eligibility before checkout</li>
+    <li><strong>Samsung £100 sound device</strong> — Samsung Direct, valid to 12 May 2026</li>
+    <li><strong>Smiths TV S90F stock</strong> — 8 units remaining at £999 as of 15 Apr; limited stock</li>
   </ul>
 
-</div><!-- /prices tab -->
+  <h2>Sources &amp; Price Trackers</h2>
+  <ul class="source-list">
+    <li><a href="https://www.idealo.co.uk/compare/207075487/samsung-qe55s90f.html">Idealo — Samsung S90F 55"</a></li>
+    <li><a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Idealo — Samsung S95F 55"</a></li>
+    <li><a href="https://www.idealo.co.uk/compare/207074568/sony-bravia-8-ii-k55xr8m25bp.html">Idealo — Sony Bravia 8 II 55"</a></li>
+    <li><a href="https://pricespy.co.uk/product.php?p=14917573">PriceSpy — Samsung S90F 55"</a></li>
+    <li><a href="https://pricespy.co.uk/product.php?p=14811860">PriceSpy — Sony Bravia 8 II 55"</a></li>
+    <li><a href="https://www.richersounds.com/tv-projectors/tvs-accessories/tvs/oled-tvs/">Richer Sounds — OLED TVs</a></li>
+    <li><a href="https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html">Smiths TV — OLED TVs</a></li>
+    <li><a href="https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs">Marks Electrical — OLED TVs</a></li>
+    <li><a href="https://www.techradar.com/deals/best-oled-tv-prices-deals">TechRadar — Best OLED deals</a></li>
+    <li><a href="https://www.whathifi.com/best-buys/tvs/best-oled-tvs">What Hi-Fi? — Best OLEDs 2026</a></li>
+    <li><a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums — LG 2026 UK pricing</a></li>
+    <li><a href="https://www.flatpanelshd.com/samsung_s95h_qdoled_2026.php">FlatpanelsHD — Samsung S95H specs</a></li>
+    <li><a href="https://tftcentral.co.uk/news/lg-oled-c6-series-full-specs-and-pricing-released">TFTCentral — LG C6 specs</a></li>
+    <li><a href="https://tftcentral.co.uk/news/lg-release-full-specs-and-pricing-for-their-oled-g6-series">TFTCentral — LG G6 specs</a></li>
+  </ul>
+
+</div><!-- /prices -->
 
 <!-- ==================== NEWS TAB ==================== -->
 <div id="news" class="tab-panel">
 
-  <p class="updated">Last updated: 15 April 2026 (late PM)</p>
-
-  <h2>April 2026 — Latest Updates</h2>
+  <p class="updated">Last updated: 15 April 2026 (afternoon, 2nd automated run) &bull; Newest first</p>
 
   <div class="news-card correction">
-    <h3>⚠️ CORRECTION: LG C6 55" Uses Standard WOLED — Not Tandem</h3>
-    <p>The <strong>LG C6H designation applies only to the 77" and 83" models</strong>, which use the premium Primary RGB Tandem OLED panel. The <strong>55" model is the LG C6</strong> (not C6H) and uses a <strong>standard W-OLED panel</strong> — the same type as the LG C4 (2024). This is a meaningful downgrade versus the C5 55", which used Tandem OLED evo. At £1,496 it's priced similarly to the C5 was at this point — but offers inferior panel technology.</p>
-    <p><strong>Recommendation:</strong> If you want a 2026 LG OLED with a premium panel, go for the G6 55" (~£1,499 mid-May) which uses Primary RGB Tandem OLED evo. Or buy the LG C5 now at £999 effective — better panel, lower price.</p>
-    <div class="sources">Sources: <a href="https://tftcentral.co.uk/news/lg-oled-c6-series-full-specs-and-pricing-released">TFTCentral — C6 full specs</a> | <a href="https://www.flatpanelshd.com/lg_c6_oled_2026.php">FlatpanelsHD</a> | <a href="https://www.hdtvtest.co.uk/news/lg-s-2026-oled-t-vs-are-quite-a-bit-cheaper-than-last-year-s-new-models">HDTVTest</a></div>
+    <h3>⚠️ PRICE CORRECTION: LG G6 55" UK Pre-Order is £2,199.99 — NOT ~£1,499</h3>
+    <p>An earlier entry on this page incorrectly estimated the LG G6 55" UK launch price at approximately £1,499. The <strong>confirmed Amazon UK pre-order price is £2,199.99</strong> (shipping mid-May 2026). The G6 is approximately £200 cheaper than initial G5 listings (~£2,399), consistent with LG's stated savings. However, versus the G5's current street price (~£1,499 wall mount), the G6 is a premium product at a premium price. The G6 uses Primary RGB Tandem OLED evo — 5-star rated by TechRadar.</p>
+    <div class="sources">Sources: <a href="https://tech.yahoo.com/home-entertainment/tvs/articles/welcome-news-prices-lg-g6-165540815.html">Yahoo Tech — G6 UK Amazon prices</a> | <a href="https://www.techradar.com/televisions/lg-g6-oled-tv-review">TechRadar G6 review</a></div>
+  </div>
+
+  <div class="news-card correction">
+    <h3>⚠️ PRICE CORRECTION: LG C6 55" UK Pre-Order is £1,699.99 — NOT £1,496</h3>
+    <p>The LG C6 55" Amazon UK pre-order price is <strong>£1,699.99</strong> (shipping mid-May). An earlier entry incorrectly listed this as £1,496. Reminder: the C6 55" uses <strong>standard WOLED</strong> (weaker than C5's Tandem OLED evo). At £1,700, the 2025 C5 at <strong>£999 effective</strong> (Richer Sounds + cashback) offers significantly better picture quality at half the price.</p>
+    <div class="sources">Sources: <a href="https://tech.yahoo.com/home-entertainment/tvs/articles/welcome-news-prices-lg-g6-165540815.html">Yahoo Tech</a> | <a href="https://tftcentral.co.uk/news/lg-oled-c6-series-full-specs-and-pricing-released">TFTCentral — C6 specs</a></div>
+  </div>
+
+  <div class="news-card correction">
+    <h3>CLARIFICATION: Panasonic Z86C is the ONLY New 2026 UK OLED — No New Z95B/Z90B</h3>
+    <p>There is no new 2026 Panasonic Z95B or Z90B model for the UK. The <strong>Z86C</strong> is Panasonic's only new OLED TV for the UK in 2026 — using LG's budget <strong>OLED SE panel</strong>, running <strong>Fire TV</strong>, available in 55" and 65" only, with no price confirmed yet. The Z95B and Z90B remain on sale as <strong>2025 carry-over models</strong>. The 2025 Z95B 55" is available at John Lewis for £1,549 with code <span class="code-pill">PANA150OFF1500</span> for £150 off.</p>
+    <div class="sources">Sources: <a href="https://www.whathifi.com/tv-home-cinema/televisions/new-oleds-and-qd-mini-led-tvs-feature-in-panasonics-2026-range-but-theres-something-missing">What Hi-Fi? — Panasonic 2026</a> | <a href="https://www.whathifi.com/tv-home-cinema/televisions/panasonic-z86c-z85c">Z86C/Z85C hands on</a></div>
   </div>
 
   <div class="news-card new-item">
-    <h3>LG G6 55" UK Price — ~£1,499 at Launch (Mid-May)</h3>
-    <p>LG has confirmed UK pricing for its 2026 G6 flagship OLED range. The <strong>G6 is £200 cheaper than the G5 was at the equivalent size at launch</strong> — meaning the 55" G6 should come in at approximately <strong>£1,499</strong>. The 48" is confirmed at £1,699 and the 65" at £2,999.</p>
-    <p>The G6 uses <strong>Primary RGB Tandem OLED evo</strong> — the same premium panel tier as the G5 — with improved brightness and LG's new Alpha 11 Gen 3 AI processor. Pre-orders are now live; <strong>shipping from mid-May 2026</strong>.</p>
-    <p>This is an excellent launch price — potentially cheaper than the 2025 C5 was in its first few months on sale.</p>
-    <div class="sources">Sources: <a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums</a> | <a href="https://www.techradar.com/televisions/prices-for-the-lg-g6-and-lg-c6-oled-tvs-have-appeared-on-amazon-and-boy-have-i-got-good-news-for-you">TechRadar</a> | <a href="https://www.hdtvtest.co.uk/news/lg-electronics-now-taking-pre-orders-for-its-2026-g6-and-c6-oled-t-vs">HDTVTest</a> | <a href="https://www.whathifi.com/tv-home-cinema/televisions/lg-g6">What Hi-Fi? G6 review</a></div>
+    <h3>Samsung S90F 55" Hits New Lows — Now from £879</h3>
+    <p>The Samsung S90F 55" (W-OLED, 2025) has dropped to new record-low prices as Samsung clears stock ahead of the S90H:</p>
+    <ul>
+      <li><strong><a href="https://www.idealo.co.uk/compare/207075487/samsung-qe55s90f.html">Idealo: from £879</a></strong> — cheapest across multiple UK retailers</li>
+      <li><strong><a href="https://www.smithstv.co.uk/samsung-qe55s90f-1000010024.html">Smiths TV: £999</a></strong> (was £1,299) — free 5-year Samsung warranty included; only 8 units remaining</li>
+      <li><a href="https://pricespy.co.uk/product.php?p=14917573">PriceSpy: from £928</a></li>
+      <li><a href="https://www.smarthomesounds.co.uk/samsung-s90f-55">Smart Home Sounds: £787.50</a> — verify stock at checkout</li>
+    </ul>
+    <p>Previous entry showed ~£1,163 with TV10 code at Currys (from £1,299). The market has since moved significantly lower across retailers.</p>
+    <div class="sources">Sources: <a href="https://www.idealo.co.uk/compare/207075487/samsung-qe55s90f.html">Idealo</a> | <a href="https://www.smithstv.co.uk/samsung-qe55s90f-1000010024.html">Smiths TV</a></div>
   </div>
 
   <div class="news-card new-item">
-    <h3>Panasonic 2026 UK OLED — Two Tiers: Z86C (Budget) + Z95B/Z90B (Flagship)</h3>
-    <p>Panasonic's 2026 OLED lineup for the UK splits into two distinct tiers:</p>
-    <p><strong>Z86C (UK) / Z85C (Europe) — Affordable 2026 OLED:</strong> Runs <strong>Fire TV</strong> in the UK. Uses LG's new <strong>OLED SE panel</strong> — a budget tier that removes the polariser for lower cost, targeting entry-level OLED buyers. Available in <strong>55" and 65" only</strong>. Supports 120Hz, Dolby Vision, HDR10+, Filmmaker Mode. <strong>No UK price confirmed yet.</strong></p>
-    <p><strong>Z95B / Z90B (2026) — Flagship continuation:</strong> Panasonic has confirmed a <strong>new 2026 Z95B and Z90B</strong> using the high-end Primary RGB Tandem OLED panel. These are Panasonic's flagship 2026 OLEDs. <strong>No UK pricing or dates confirmed yet.</strong></p>
-    <div class="sources">Sources: <a href="https://www.whathifi.com/tv-home-cinema/televisions/new-oleds-and-qd-mini-led-tvs-feature-in-panasonics-2026-range-but-theres-something-missing">What Hi-Fi?</a> | <a href="https://www.avforums.com/news/panasonic-unveils-new-oled-qd-miniled-and-qled-tvs-for-2026.23359/">AVForums</a> | <a href="https://www.displayspecifications.com/en/news/bf42f6c">DisplaySpecifications</a> | <a href="https://www.oled-info.com/panasonic-z85c-z86c">OLED-Info</a></div>
+    <h3>Samsung S95H Now Shipping in US — UK Price Still Not Confirmed</h3>
+    <p>Samsung's flagship 2026 QD-OLED, the S95H, began shipping in the US on <strong>1 April 2026</strong> at $2,499 (55"). As of 15 April, <strong>no UK pricing has been confirmed</strong>. The S95H features: Glare Free 3.0, Art Mode (first OLED with this feature), ~35% brighter than S95F, FloatLayer Design, available in 55", 65", 77", and 83". Until UK pricing lands, the S95F 55" from £1,499 remains the Samsung flagship to buy — with a free £100 sound device at Samsung Direct until 12 May.</p>
+    <div class="sources">Sources: <a href="https://www.theshortcut.com/p/samsungs-s95h-s90h-frame-pro-art-store-qd-oled">The Shortcut</a> | <a href="https://www.whathifi.com/tv-home-cinema/televisions/samsung-s95h">What Hi-Fi? hands on</a> | <a href="https://www.flatpanelshd.com/samsung_s95h_qdoled_2026.php">FlatpanelsHD specs</a></div>
   </div>
 
   <div class="news-card new-item">
+    <h3>Marks Electrical — Active Codes Updated (April 2026)</h3>
+    <p>New codes confirmed at Marks Electrical for April 2026:</p>
+    <ul>
+      <li><span class="code-pill">CLEAR-7</span>: 7% off selected clearance items</li>
+      <li><span class="code-pill">MEMULTIBUY</span>: 10% off when buying 2 items, 15% off 3+ items in same transaction</li>
+      <li><span class="code-pill">LGSAVE10</span> and <span class="code-pill">LGSAVE15</span>: LG savings codes (verify applicability at checkout)</li>
+    </ul>
+    <p>Current 55" OLED stock: LG G5 stand £1,799 (Marks+ £1,739), LG G5 wall £1,799 (Marks+ £1,739, ⚠️ low stock), LG C5 55" £1,199.</p>
+    <div class="sources">Sources: <a href="https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs">Marks Electrical — OLED TVs</a></div>
+  </div>
+
+  <div class="news-card correction">
+    <h3>CORRECTION: LG C6 55" Uses Standard WOLED — Not Tandem</h3>
+    <p>The <strong>C6H</strong> designation applies only to the <strong>77" and 83"</strong> versions (Tandem OLED). The <strong>55" LG C6</strong> (OLED55C64LA) uses <strong>standard W-OLED</strong> — same type as the LG C4. This is a notable downgrade versus the C5 55" (Tandem OLED evo). At the pre-order price of £1,699.99, the C6 55" is poor value versus the C5 at £999 effective with better panel technology.</p>
+    <div class="sources">Sources: <a href="https://tftcentral.co.uk/news/lg-oled-c6-series-full-specs-and-pricing-released">TFTCentral — C6 specs</a> | <a href="https://www.hdtvtest.co.uk/news/lg-s-2026-oled-t-vs-are-quite-a-bit-cheaper-than-last-year-s-new-models">HDTVTest</a></div>
+  </div>
+
+  <div class="news-card new-item">
+    <h3>LG G6 and C6 Pre-Orders Open — 5-Star Reviews</h3>
+    <p>LG's 2026 OLED range is now available for pre-order on Amazon UK: <strong>G6 55" at £2,199.99</strong> and <strong>C6 55" at £1,699.99</strong>, both shipping mid-May 2026. TechRadar gave the G6 5 stars — "fantastic OLED TV, new best option for brighter rooms" with "outstanding picture quality" and "phenomenal gaming performance." The G6 also features improved anti-reflection versus the G5. The C6 65"/83" (C6H) uses Tandem OLED and is separately priced.</p>
+    <div class="sources">Sources: <a href="https://www.techradar.com/televisions/lg-g6-oled-tv-review">TechRadar G6 review</a> | <a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums</a> | <a href="https://www.hdtvtest.co.uk/news/lg-electronics-now-taking-pre-orders-for-its-2026-g6-and-c6-oled-t-vs">HDTVTest</a></div>
+  </div>
+
+  <div class="news-card new-item">
+    <h3>Panasonic Z86C — UK's Only New 2026 OLED, No Price Yet</h3>
+    <p>Panasonic's sole new 2026 OLED for the UK is the <strong>Z86C</strong> — using LG's new budget <strong>OLED SE panel</strong>, running <strong>Fire TV</strong> (not Google TV), available in 55" and 65" only. The OLED SE panel removes the polariser to reduce cost and has lower peak brightness than OLED evo. No UK price or release date has been confirmed. What Hi-Fi? tried it — their reaction was mixed. The 2025 Z95B remains the premium Panasonic pick.</p>
+    <div class="sources">Sources: <a href="https://www.whathifi.com/tv-home-cinema/televisions/panasonic-z86c-z85c">What Hi-Fi? Z86C hands on</a> | <a href="https://www.oled-info.com/panasonic-z85c-z86c">OLED-Info</a> | <a href="https://www.avforums.com/news/panasonic-unveils-new-oled-qd-miniled-and-qled-tvs-for-2026.23359/">AVForums</a></div>
+  </div>
+
+  <div class="news-card new-item">
+    <h3>Sony Bravia 8 II — Soundbar Deals Expiring 28 April 2026</h3>
+    <p>Major Sony soundbar bundle deals are <strong>expiring 28 April 2026</strong> — act now if buying the Bravia 8 II:</p>
+    <ul>
+      <li><strong>£200 off HTA8000</strong> soundbar when bought with any Sony TV (18 Mar – 28 Apr)</li>
+      <li><strong>£300 off HTA9000</strong> soundbar (18 Mar – 28 Apr)</li>
+      <li><strong>£500 off HTA9M2 Theatre Quad</strong> (18 Mar – 28 Apr)</li>
+    </ul>
+    <p>Longer-running deals (to 30 June): £70 off HTAN7 Neckband Soundbar, £100 off HTS60. Best price for the Bravia 8 II 55" is £1,665.83 at Smart Home Sounds.</p>
+    <div class="sources">Sources: <a href="https://www.smarthomesounds.co.uk/sony-bravia-8-ii-55">Smart Home Sounds</a> | <a href="https://www.sony.co.uk/bravia/products/bravia-8m2">Sony UK</a> | <a href="https://pricespy.co.uk/product.php?p=14811860">PriceSpy</a></div>
+  </div>
+
+  <div class="news-card new-item">
+    <h3>Samsung S90H (2026) — UK Launch Expected End of April</h3>
+    <p>Samsung's mid-range 2026 OLED, the <strong>S90H</strong>, uses W-OLED and gains <strong>Glare Free</strong> (previously flagship-only). The <strong>65" confirmed at £2,699 in UK</strong>. 55" price unconfirmed — estimated £1,599–£1,699. 15% brighter than S90F. NQ4 AI Gen3 processor. Samsung Vision AI. Unlike the flagship S95H (QD-OLED), the S90H uses W-OLED — same panel type as LG's C-series.</p>
+    <div class="sources">Sources: <a href="https://www.t3.com/tech/tvs/samsung-s90h-review">T3 review</a> | <a href="https://www.smarthomesounds.co.uk/blog/faqs/samsung-s90h-review">Smart Home Sounds first look</a></div>
+  </div>
+
+  <div class="news-card new-item">
+    <h3>LG C5 55" — £999 Effective Deal Still Active (Confirmed April 2026)</h3>
+    <p>Richer Sounds is offering the <strong>LG C5 55" (OLED55C56LB)</strong> for £1,199, but with code <span class="code-pill">RSTV100</span> the price drops to <strong>£1,099 at checkout</strong>. LG's <strong>£100 cashback</strong> promotion makes the effective price <strong>£999</strong>. This deal has been confirmed active in April 2026. The C5 55" uses Tandem OLED evo — a better panel than the new 2026 C6 55" (standard WOLED) which pre-orders at £1,699. At £999, this is exceptional value.</p>
+    <div class="sources">Sources: <a href="https://www.richersounds.com/lg-oled55c56lb/">Richer Sounds — LG C5</a> | <a href="https://www.whathifi.com/tv-home-cinema/televisions/grab-the-five-star-lg-oled-tv-for-the-lowest-price-we-have-seen-with-this-cashback-deal">What Hi-Fi? cashback deal</a></div>
+  </div>
+
+  <div class="news-card">
     <h3>Currys Easter Sale — Code TV10 for 10% Off Selected OLEDs</h3>
-    <p>Currys is running an extended Easter sale with code <strong><span class="code-pill">TV10</span></strong> giving <strong>10% off selected OLED TVs</strong> at checkout — confirmed on Samsung S90F 55". Combined with the existing £1,299 price this takes it to approximately <strong>£1,163</strong>. Also active: <strong>up to £250 off selected JBL soundbars</strong> with any TV purchase.</p>
-    <p>Additionally, Currys is offering <strong>25% off selected Sony soundbars</strong> when bought with any Sony TV — this <span class="expires">expires 28 April 2026</span>. Combining the Bravia 8 II at £1,799 with a discounted Sony soundbar represents excellent bundle value before the deadline.</p>
-    <div class="sources">Sources: <a href="https://www.currys.co.uk/products/samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html">Currys — S90F</a> | <a href="https://www.techradar.com/televisions/ive-found-3-brilliant-currys-tv-deals-i-really-dont-think-you-can-afford-to-miss">TechRadar</a></div>
-  </div>
-
-  <div class="news-card new-item">
-    <h3>Sony Bravia 8 II — Extended Soundbar Deals Now to 30 June</h3>
-    <p>Sony has added a new layer of soundbar bundle promotions running until <strong>30 June 2026</strong>:</p>
-    <ul>
-      <li><strong>To 28 April 2026:</strong> £200 off HTA8000, £300 off HTA9000, £500 off HTA9M2 Theatre Quad (Sony Direct / Currys)</li>
-      <li><strong>To 30 June 2026 (new):</strong> £70 off HTAN7 Neckband Soundbar, £100 off HTS60 Soundbar</li>
-    </ul>
-    <p>Best current price for the Bravia 8 II 55" remains <strong>£1,665 at Smart Home Sounds</strong> (<a href="https://pricespy.co.uk/product.php?p=14811860">PriceSpy verified</a>). Currys and Sony Direct at £1,799. Peter Tyson also lists it as an authorised Sony dealer.</p>
-    <p>Note: The higher-value HTA soundbar bundle (to 28 Apr) is a better deal if you want a high-quality soundbar. Act before 28 April.</p>
-    <div class="sources">Sources: <a href="https://www.smarthomesounds.co.uk/sony-bravia-8-ii-55">Smart Home Sounds</a> | <a href="https://pricespy.co.uk/product.php?p=14811860">PriceSpy</a> | <a href="https://petertyson.co.uk/sony-k55xr8m25bp-55-bravia-8-ii-oled-4k-google-tv-2025">Peter Tyson</a></div>
+    <p>Currys extended Easter sale: code <span class="code-pill">TV10</span> gives <strong>10% off selected OLED TVs</strong> at checkout — confirmed working on Samsung S90F 55". Also running: up to <strong>£250 off selected JBL soundbars</strong> with any TV. Currys continues <strong>25% off selected Sony soundbars</strong> with any Sony TV purchase (valid to <strong>28 April 2026</strong>).</p>
+    <div class="sources">Sources: <a href="https://www.currys.co.uk/products/samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html">Currys — Samsung S90F</a></div>
   </div>
 
   <div class="news-card">
-    <h3>Samsung S90H Update — 65" UK Price Confirmed at £2,699</h3>
-    <p>Samsung's mid-range 2026 OLED continues on track for a <strong>UK launch by end of April</strong>. The <strong>65" S90H is confirmed at £2,699 in the UK</strong>. The 55" remains unconfirmed; at US $1,999 the converted estimate is ~£1,599–£1,699.</p>
-    <p>The S90H uses <strong>standard WOLED</strong> (same panel type as LG C-series), gains <strong>Glare Free display</strong> (previously only on flagship S95-tier), and is 15% brighter than the S90F. It runs NQ4 AI Gen3 and Samsung Vision AI. A solid mid-range pick once it arrives, especially for bright rooms where Glare Free matters.</p>
-    <div class="sources">Sources: <a href="https://www.t3.com/tech/tvs/samsung-s90h-review">T3</a> | <a href="https://www.smarthomesounds.co.uk/blog/faqs/samsung-s90h-review">Smart Home Sounds</a> | <a href="https://www.flatpanelshd.com/samsung_s90h_oled_2026.php">FlatpanelsHD</a></div>
-  </div>
-
-  <h2>Earlier in April 2026</h2>
-
-  <div class="news-card">
-    <h3>Samsung S95H — US On Sale from $2,499; UK Imminent</h3>
-    <p>The S95H launched for sale in the <strong>US on 2 April 2026</strong>, with confirmed US pricing:</p>
-    <ul>
-      <li>55" — $2,499 &nbsp;|&nbsp; 65" — $3,400 &nbsp;|&nbsp; 77" — $4,500 &nbsp;|&nbsp; 83" — $6,500</li>
-    </ul>
-    <p>UK pricing has not been officially announced. Smart Home Sounds and other UK specialist retailers have confirmed they will stock the S95H but have not listed UK prices yet. Based on the S95F's cadence (US April, UK late April/May), UK pricing could arrive any day.</p>
-    <p><strong>Key upgrades over S95F:</strong> 35% brighter (up to 3,000 nits peak), new FloatLayer Design with metallic bezel, OLED HDR Pro with Glare Free 3.0, optional HDMI expansion box, Art Mode (first on a Samsung OLED), Tizen 9.0.</p>
-    <p><em>Note: 48" and 83" S95H models use LG Tandem W-OLED panels; 55", 65" and 77" retain Samsung QD-OLED.</em></p>
-    <div class="sources">Sources: <a href="https://www.gizmochina.com/2026/04/12/samsung-2026-oled-the-frame-pro-tvs-global-availability/">Gizmochina (global)</a> | <a href="https://www.smarthomesounds.co.uk/blog/faqs/samsung-s95h-review">Smart Home Sounds</a> | <a href="https://www.whathifi.com/tv-home-cinema/televisions/samsung-s95h">What Hi-Fi? hands-on</a> | <a href="https://www.pcguide.com/tv/samsung-s95h-oled-release-date-specs-price/">PC Guide</a></div>
-  </div>
-
-  <div class="news-card">
-    <h3>LG C5 55" — Effective £999 via Richer Sounds Code + Cashback</h3>
-    <p>Richer Sounds has the <strong>LG C5 55" (OLED55C56LB)</strong> at <strong>£1,199</strong>. Use code <span class="code-pill">RSTV100</span> to get £1,099 at checkout, then claim <strong>£100 LG cashback</strong> — making the effective price <strong>£999</strong>. Smiths TV also has it at £1,199 (was £1,499) with a free 5-year LG warranty.</p>
-    <p>The C5 uses <strong>Tandem OLED evo</strong> — importantly, this is a <strong>better panel than the new 2026 LG C6 55"</strong> (which uses standard WOLED). At £999 the C5 represents exceptional value and is our recommended pick for 2025-gen LG.</p>
-    <div class="sources">Sources: <a href="https://www.richersounds.com/lg-oled55c56lb/">Richer Sounds</a> | <a href="https://www.whathifi.com/tv-home-cinema/televisions/grab-the-five-star-lg-oled-tv-for-the-lowest-price-we-have-seen-with-this-cashback-deal">What Hi-Fi?</a></div>
-  </div>
-
-  <div class="news-card">
-    <h3>Panasonic Z95B (2025) — Record Low Price at John Lewis</h3>
-    <p>The 2025 Panasonic Z95B 55" has hit an effective record low. John Lewis lists it at <strong>£1,549</strong> — use code <span class="code-pill">PANA150OFF1500</span> at checkout for <strong>£150 off</strong> = <strong>£1,399 effective</strong>, with a 5-year John Lewis guarantee included. The Z95B uses Primary RGB Tandem OLED — Panasonic's best panel — and has Filmmaker Mode, Dolby Vision, HDR10+.</p>
-    <div class="sources">Sources: <a href="https://www.johnlewis.com/browse/electricals/televisions/view-all-tvs/panasonic/z95b/_/N-6srfZ1z140zjZq2tn">John Lewis</a></div>
-  </div>
-
-  <h2>What to Watch For</h2>
-  <ul class="watchlist">
-    <li><strong>Samsung S95H UK pricing</strong> — US launched 2 April at $2,499; UK announcement expected any day</li>
-    <li><strong>Samsung S90H UK launch</strong> — end-April expected; 65" confirmed £2,699, 55" TBC</li>
-    <li><strong>LG G6 55" goes on sale</strong> — pre-order now, shipping mid-May at ~£1,499</li>
-    <li><strong>Panasonic Z86C UK price</strong> — budget Fire TV OLED; no price yet</li>
-    <li><strong>Panasonic Z95B / Z90B (2026)</strong> — flagship 2026 Panasonic OLED; no UK date or price</li>
-    <li><strong class="expires">Sony HTA soundbar deal expires 28 April</strong> — £200–£500 off HTA soundbars with Bravia 8 II</li>
-    <li><strong>Samsung £100 sound device deal</strong> — valid at Samsung Direct to 12 May 2026</li>
-    <li><strong>Currys TV10 code</strong> — 10% off selected OLEDs; verify on your model before purchase</li>
-    <li><strong>Panasonic Z95B code at JL</strong> — <span class="code-pill">PANA150OFF1500</span> saves £150, 5-year guarantee</li>
-  </ul>
-
-  <h2>Early 2026 Context</h2>
-
-  <div class="news-card">
-    <h3>Samsung S95F — "TV of the Year 2025", Now at Record Low</h3>
-    <p>The S95F won "TV of the Year" awards from TechRadar and others for 2025. As Samsung clears stock ahead of the S95H, it's dropped from £2,499 at launch to from <strong>£1,499 — a £1,000 drop in under a year</strong>. Samsung also offered trade-in bonuses and discounts for students, teachers, and key workers (up to 20%) throughout 2025.</p>
-    <div class="sources">Sources: <a href="https://www.techradar.com/televisions/this-samsung-s95f-oled-tv-deal-takes-it-to-a-record-low-ahead-of-prime-day-and-theres-a-way-to-save-even-more">TechRadar</a> | <a href="https://www.sammobile.com/news/samsung-is-slashing-prices-on-its-top-2025-oled-tv-in-the-uk/">SamMobile</a></div>
-  </div>
-
-  <div class="news-card">
-    <h3>LG G5 55" — Still Excellent Value as 2025 Stock Clears</h3>
-    <p>With the G6 arriving mid-May, the G5 55" is strong value. Wall mount: <strong>£1,499 at Smiths TV</strong> (was £1,799) with free 5-year LG warranty. Stand version: <strong>£1,799</strong> (was £1,999). Both use <strong>Primary RGB Tandem OLED evo</strong> — same premium panel as the G6. At £1,499, the wall-mount G5 matches the expected G6 55" launch price.</p>
-    <div class="sources">Sources: <a href="https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html">Smiths TV</a> | <a href="https://www.idealo.co.uk/compare/206211153/lg-oled-g5-2025.html">Idealo G5</a></div>
+    <h3>Samsung S95F — Record Low Prices, "TV of the Year 2025"</h3>
+    <p>The S95F 55" has dropped from £2,499 launch to <strong>from £1,499</strong> across multiple retailers. At Samsung Direct it's £1,699 with a free £100 sound device (valid to 12 May 2026). Multiple "TV of the Year" awards from TechRadar and others. QD-OLED, Glare Free, 144Hz, Wireless One Connect.</p>
+    <div class="sources">Sources: <a href="https://www.samsung.com/uk/tvs/oled-tv/s95f-55-inch-oled-4k-smart-tv-qe55s95fatxxu/">Samsung UK</a> | <a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Idealo</a></div>
   </div>
 
   <h2>Prompt Improvement Suggestions</h2>
   <div class="news-card">
     <ul>
-      <li><strong>Track panel type prominently for each deal</strong> — the QD-OLED vs Tandem vs standard WOLED vs OLED SE distinction is critical and often buried. The LG C6 55" "downgrade" situation caught buyers off guard.</li>
-      <li><strong>Add LG G5 vs C6 direct comparison</strong> — the 2025 G5 55" wall at £1,499 and the 2026 C6 55" at £1,496 are the same price, but the G5 has a premium Tandem OLED evo panel vs C6's standard WOLED. This needs calling out.</li>
-      <li><strong>Track Sony Bravia 9 II / new Sony OLED</strong> — Sony's next OLED model will affect Bravia 8 II pricing just as S95H affects S95F prices.</li>
-      <li><strong>Peter Tyson finance window</strong> — Peter Tyson regularly offers 0% finance windows (currently 8 Apr – 30 Jun 2026). Worth tracking the current window explicitly.</li>
-      <li><strong>Marks Electrical Marks+ membership note</strong> — some of their prices require Marks+ membership. Code <span class="code-pill">LGSAVE10</span> is separate from membership discounts.</li>
-      <li><strong>Per-retailer last-checked timestamps</strong> — prices move fast; a per-retailer timestamp would help flag stale data.</li>
-      <li><strong>Add Appliance City, Hills Sound and Vision, Crampton and Moore explicitly</strong> — these retailers were on the watch list but haven't had specific deals found yet. Worth including even if prices match competitors.</li>
-      <li><strong>Add a "before you buy" checklist</strong> — room brightness (QD-OLED vs Tandem OLED), use case (gaming: check HDMI 2.1 / VRR support), soundbar plans (soundbar bundles can shift best-value pick significantly).</li>
+      <li><strong>Add a "last confirmed" timestamp per price:</strong> Prices move fast — a per-retailer "confirmed DD Mon YYYY" timestamp would help identify stale data vs fresh observation.</li>
+      <li><strong>Distinguish "new 2026 model" from "2025 model still on sale in 2026":</strong> The Panasonic Z95B appears in 2026 guides but is not a new model. This caused confusion in earlier runs. Mark clearly.</li>
+      <li><strong>Verify all price estimates against actual retailer listings:</strong> Several estimates in earlier runs (LG G6 55" ~£1,499, LG C6 ~£1,496) were incorrect. US prices and early Amazon listings should be flagged as estimates, not confirmed prices.</li>
+      <li><strong>Track panel type as primary filter:</strong> The QD-OLED vs Tandem OLED evo vs standard WOLED vs OLED SE distinction is the biggest buying decision — surface it prominently for every deal.</li>
+      <li><strong>Monitor AVForums HotDeals thread for codes:</strong> Active codes like RSTV100 appear in AVForums before mainstream media. This source would improve code accuracy.</li>
+      <li><strong>Track Sony Bravia 9 II (2026):</strong> Sony's next OLED announcement will affect Bravia 8 II pricing immediately.</li>
+      <li><strong>Add flag for "verified working" discount codes:</strong> Note which codes have been confirmed at checkout vs which are unverified claims from voucher aggregators.</li>
+      <li><strong>Peter Tyson 0% finance window:</strong> Peter Tyson regularly has 0% finance when others don't — worth monitoring their current offer window.</li>
     </ul>
   </div>
 
-</div><!-- /news tab -->
+</div><!-- /news -->
 
 </main>
 
 <footer>
-  <p>For personal use &bull; Prices and availability change frequently — always verify before buying &bull; Updated 15 April 2026</p>
+  <p>55" OLED TV UK Buyer's Guide &bull; <a href="https://github.com/solutionrooms/oleds">GitHub</a> &bull; Automated research — verify prices before purchasing &bull; 15 April 2026</p>
 </footer>
 
 <script>
-function showTab(name, el) {
+function showTab(tab, el) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-  document.getElementById(name).classList.add('active');
+  document.getElementById(tab).classList.add('active');
   el.classList.add('active');
 }
 </script>
