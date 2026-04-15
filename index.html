@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>55" OLED TVs UK — Samsung S95F &amp; S95H</title>
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --surface: #1a1a1a;
+      --surface2: #232323;
+      --border: #2e2e2e;
+      --accent: #4fc3f7;
+      --accent2: #81d4fa;
+      --text: #e8e8e8;
+      --muted: #888;
+      --green: #66bb6a;
+      --amber: #ffa726;
+      --red: #ef5350;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0d1b2a 0%, #1a1a2e 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2rem 1.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+      margin-bottom: 0.4rem;
+    }
+    header p.subtitle {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem 1.5rem;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border: 1px solid transparent;
+      transition: all 0.15s;
+    }
+    nav a:hover, nav a.active {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+    /* Alert banner */
+    .alert {
+      background: #1a2a1a;
+      border: 1px solid #2e4a2e;
+      border-left: 4px solid var(--green);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      font-size: 0.875rem;
+    }
+    .alert strong { color: var(--green); }
+    /* Section headings */
+    h2 {
+      font-size: 1.25rem;
+      color: var(--accent2);
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 1.5rem 0 0.5rem;
+    }
+    p, li { color: #ccc; margin-bottom: 0.4rem; }
+    ul { padding-left: 1.25rem; margin-bottom: 0.75rem; }
+    strong { color: var(--text); }
+    /* Source links line */
+    .sources {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+    .sources a { color: var(--accent); text-decoration: none; }
+    .sources a:hover { text-decoration: underline; }
+    /* News card */
+    .news-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .news-card h3 { margin-top: 0; }
+    /* Price tables */
+    .table-wrap { overflow-x: auto; margin-bottom: 1.5rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+    th {
+      background: var(--surface2);
+      color: var(--muted);
+      font-weight: 600;
+      text-align: left;
+      padding: 0.6rem 0.75rem;
+      border-bottom: 2px solid var(--border);
+      white-space: nowrap;
+    }
+    td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1e1e1e; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-new { background: #1a2e1a; color: var(--green); border: 1px solid #2e4a2e; }
+    .badge-coming { background: #2a2000; color: var(--amber); border: 1px solid #4a3800; }
+    .badge-usa { background: #1a2040; color: #82b1ff; border: 1px solid #2a3860; }
+    /* Value picks */
+    .picks-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .pick-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+    }
+    .pick-card .pick-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+    .pick-card .pick-title { font-weight: 700; color: var(--text); margin-bottom: 0.4rem; }
+    .pick-card .pick-price { font-size: 1.4rem; font-weight: 800; color: var(--green); }
+    /* Watchlist */
+    .watchlist li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+      list-style: none;
+      padding-left: 0;
+    }
+    .watchlist li::before { content: "→ "; color: var(--accent); font-weight: 700; }
+    /* Price history */
+    .history-item {
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+      padding: 0.35rem 0;
+      font-size: 0.875rem;
+    }
+    .history-item .model { flex: 0 0 200px; font-weight: 600; }
+    .history-item .arrow { color: var(--green); }
+    /* Sources section */
+    .source-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.4rem;
+      list-style: none;
+      padding: 0;
+    }
+    .source-list li a {
+      display: block;
+      padding: 0.4rem 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.8rem;
+      color: var(--accent);
+      transition: background 0.1s;
+    }
+    .source-list li a:hover { background: var(--surface2); text-decoration: none; }
+    /* Updated timestamp */
+    .updated { font-size: 0.75rem; color: var(--muted); margin-bottom: 1.5rem; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      font-size: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.3rem; }
+      .history-item .model { flex: 0 0 140px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>55" Samsung OLED — UK Buyer's Guide</h1>
+  <p class="subtitle">Samsung S95F &amp; S95H &bull; UK Prices &amp; News &bull; Updated 15 April 2026</p>
+</header>
+
+<nav>
+  <a href="#" class="active" onclick="showTab('prices', this); return false;">Prices</a>
+  <a href="#" onclick="showTab('news', this); return false;">News</a>
+</nav>
+
+<main>
+
+<!-- ==================== PRICES TAB ==================== -->
+<div id="prices" class="tab-panel active">
+
+  <p class="updated">Last updated: 15 April 2026 &bull; All prices for 55" size &bull; Check links for live pricing</p>
+
+  <div class="alert">
+    <strong>Breaking:</strong> Samsung S95H is now on sale in the US ($2,499 / 55"). UK pricing not yet announced — expected imminently. The S95F 55" has hit its <strong>lowest-ever UK price at £1,499</strong>.
+  </div>
+
+  <h2>2026 Models</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Panel</th>
+          <th>UK RRP</th>
+          <th>Status / Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Samsung S95H</strong></td>
+          <td>QD-OLED</td>
+          <td><span class="badge badge-coming">TBC</span></td>
+          <td><span class="badge badge-usa">US on sale</span> from $2,499. UK price not yet confirmed — expected imminently. 35% brighter than S95F, Glare Free 3.0, Art Mode, FloatLayer Design.</td>
+        </tr>
+        <tr>
+          <td><strong>LG G6</strong></td>
+          <td>Tandem OLED evo</td>
+          <td>~£2,199 est.</td>
+          <td>55" UK price not yet officially listed. 48" = £1,699, 65" = £2,999. Pre-order available. <a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums</a></td>
+        </tr>
+        <tr>
+          <td><strong>LG C6H</strong> <span class="badge badge-new">New</span></td>
+          <td>Tandem OLED evo</td>
+          <td><strong>£1,496</strong></td>
+          <td>Confirmed UK price. Cheaper than C5 at launch. Shipping ~mid-May 2026. <a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>2025 Models — Best Current Deals</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Panel</th>
+          <th>Launch RRP</th>
+          <th>Best Price Now</th>
+          <th>Where</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Samsung S95F</strong></td>
+          <td>QD-OLED</td>
+          <td>£2,499</td>
+          <td><strong style="color:#66bb6a">from £1,499</strong></td>
+          <td><a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Idealo</a> / <a href="https://pricespy.co.uk/product.php?p=14917525">PriceSpy</a></td>
+        </tr>
+        <tr>
+          <td><strong>Sony Bravia 8 II</strong></td>
+          <td>QD-OLED</td>
+          <td>£2,499</td>
+          <td><strong style="color:#66bb6a">£1,299</strong> + 5yr + soundbar</td>
+          <td>John Lewis</td>
+        </tr>
+        <tr>
+          <td><strong>LG G5</strong></td>
+          <td>Primary RGB Tandem OLED</td>
+          <td>£1,699</td>
+          <td><strong style="color:#66bb6a">from £999</strong></td>
+          <td><a href="https://www.idealo.co.uk/compare/206211153/lg-oled-g5-2025.html">Idealo</a></td>
+        </tr>
+        <tr>
+          <td><strong>LG C5</strong></td>
+          <td>Tandem OLED evo</td>
+          <td>~£1,499</td>
+          <td><strong style="color:#66bb6a">from £822</strong> (wall mount)</td>
+          <td>Various</td>
+        </tr>
+        <tr>
+          <td><strong>LG B5</strong></td>
+          <td>WOLED</td>
+          <td>~£999</td>
+          <td><strong style="color:#66bb6a">from ~£642</strong></td>
+          <td>Various</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Price History</h2>
+  <div class="history-item">
+    <span class="model">Samsung S95F 55"</span>
+    <span>Apr 2025 £2,499 <span class="arrow">→</span> Apr 2026 <strong>£1,499</strong> (record low, -£1,000)</span>
+  </div>
+  <div class="history-item">
+    <span class="model">Sony Bravia 8 II 55"</span>
+    <span>Jun 2025 £2,499 <span class="arrow">→</span> £1,299 at John Lewis (with bundle)</span>
+  </div>
+  <div class="history-item">
+    <span class="model">LG G5 55"</span>
+    <span>Mar 2025 £1,699 <span class="arrow">→</span> from <strong>£999</strong></span>
+  </div>
+
+  <h2>Value Picks — April 2026</h2>
+  <div class="picks-grid">
+    <div class="pick-card">
+      <div class="pick-label">Best bundle value</div>
+      <div class="pick-title">Sony Bravia 8 II</div>
+      <div class="pick-price">£1,299</div>
+      <p style="font-size:0.8rem;margin-top:0.4rem">5-year guarantee + free Theatre Bar 6 soundbar at John Lewis. Outstanding value for a 2025 QD-OLED.</p>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Best new-gen deal</div>
+      <div class="pick-title">LG C6H</div>
+      <div class="pick-price">£1,496</div>
+      <p style="font-size:0.8rem;margin-top:0.4rem">Brand new 2026 OLED at a competitive launch price. Cheaper than the C5 was at launch.</p>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Samsung QD-OLED now</div>
+      <div class="pick-title">Samsung S95F</div>
+      <div class="pick-price">from £1,499</div>
+      <p style="font-size:0.8rem;margin-top:0.4rem">Record low. TV of the Year 2025. Don't want to wait for S95H? This is the one.</p>
+    </div>
+    <div class="pick-card">
+      <div class="pick-label">Wait for this</div>
+      <div class="pick-title">Samsung S95H</div>
+      <div class="pick-price" style="color:var(--amber)">TBC (UK)</div>
+      <p style="font-size:0.8rem;margin-top:0.4rem">US on sale at $2,499. 35% brighter, Glare Free 3.0, Art Mode. UK pricing expected any day.</p>
+    </div>
+  </div>
+
+  <h2>Price Trackers &amp; Sources</h2>
+  <ul class="source-list">
+    <li><a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Idealo — S95F 55"</a></li>
+    <li><a href="https://pricespy.co.uk/product.php?p=14917525">PriceSpy — S95F 55"</a></li>
+    <li><a href="https://www.idealo.co.uk/cat/4012F1446601-2035761/tvs.html">Idealo — All 55" OLEDs</a></li>
+    <li><a href="https://www.samsung.com/uk/tvs/oled-tv/s95f-55-inch-oled-4k-smart-tv-qe55s95fatxxu/">Samsung UK — S95F</a></li>
+    <li><a href="https://www.techradar.com/deals/best-oled-tv-prices-deals">TechRadar — Best OLED deals</a></li>
+    <li><a href="https://www.whathifi.com/best-buys/tvs/best-oled-tvs">What Hi-Fi? — Best OLEDs 2026</a></li>
+    <li><a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums — LG 2026 UK pricing</a></li>
+    <li><a href="https://www.flatpanelshd.com/samsung_s95h_qdoled_2026.php">FlatpanelsHD — S95H specs</a></li>
+  </ul>
+
+</div><!-- /prices tab -->
+
+<!-- ==================== NEWS TAB ==================== -->
+<div id="news" class="tab-panel">
+
+  <p class="updated">Last updated: 15 April 2026</p>
+
+  <h2>April 2026</h2>
+
+  <div class="news-card">
+    <h3>Samsung S95H Now On Sale in US — UK Launch Imminent</h3>
+    <p>The S95H launched for sale in the US on <strong>2 April 2026</strong>, with confirmed pricing:</p>
+    <ul>
+      <li>55" — $2,499</li>
+      <li>65" — $3,400</li>
+      <li>77" — $4,500</li>
+      <li>83" — $6,500</li>
+    </ul>
+    <p>UK pricing has not been officially announced, but with the US launch now live, a UK release is expected within weeks. Based on the S95F's cadence (US April → UK late April/May), an announcement could come any day. Samsung's 2026 OLED lineup has been described as launching "globally" from April 2026.</p>
+    <p><strong>Key upgrades over S95F:</strong> 35% brighter (up to 3,000 nits peak), new FloatLayer Design with metallic bezel, OLED HDR Pro with Glare Free 3.0, optional HDMI expansion box, Art Mode (first time on a Samsung OLED).</p>
+    <p><em>Note: 48" and 83" S95H use LG Tandem W-OLED; 55", 65", 77" retain Samsung QD-OLED.</em></p>
+    <div class="sources">Sources:
+      <a href="https://www.sammobile.com/news/samsung-2026-oled-s95h-frame-pro-available-usa-deal/">SamMobile (US launch)</a> |
+      <a href="https://www.gizmochina.com/2026/04/12/samsung-2026-oled-the-frame-pro-tvs-global-availability/">Gizmochina (global)</a> |
+      <a href="https://www.whathifi.com/tv-home-cinema/televisions/samsung-s95h">What Hi-Fi? hands-on</a> |
+      <a href="https://www.displayspecifications.com/en/news/4afefb2">DisplaySpecifications</a>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <h3>Samsung S95F 55" Hits Lowest-Ever UK Price</h3>
+    <p>With Samsung now selling its 2026 flagship in the US, the S95F 55" has dropped to its <strong>lowest-ever UK price at £1,499</strong>, down from a £2,499 launch price — a drop of £1,000 in under a year. Both What Hi-Fi? and TechRadar have flagged this as a record low for the 2025 TV of the Year.</p>
+    <div class="sources">Sources:
+      <a href="https://www.whathifi.com/tv-home-cinema/televisions/quick-our-tv-and-av-editors-favourite-samsung-oled-tv-has-just-dropped-to-its-lowest-ever-price">What Hi-Fi? (record low)</a> |
+      <a href="https://www.techradar.com/televisions/this-samsung-s95f-oled-tv-deal-takes-it-to-a-record-low-ahead-of-prime-day-and-theres-a-way-to-save-even-more">TechRadar (record low)</a> |
+      <a href="https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html">Idealo live prices</a>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <h3>LG G6 and C6H Are Here — Cheaper Than Last Year</h3>
+    <p>LG has confirmed UK pricing for its 2026 OLED range. The <strong>C6H 55" is £1,496</strong> — competitive with where the C5 ended up after months of discounting. The G6 is available for pre-order; 48" starts at £1,699 and 65" at £2,999 (55" price not yet confirmed, estimated ~£2,199). Both feature upgraded Tandem OLED panels with improved brightness over 2025 equivalents.</p>
+    <div class="sources">Sources:
+      <a href="https://www.avforums.com/news/lg-confirms-uk-pricing-across-its-2026-tv-line-up.23480/">AVForums</a> |
+      <a href="https://www.techradar.com/televisions/prices-for-the-lg-g6-and-lg-c6-oled-tvs-have-appeared-on-amazon-and-boy-have-i-got-good-news-for-you">TechRadar</a> |
+      <a href="https://www.whathifi.com/tv-home-cinema/televisions/lg-g6">What Hi-Fi? G6</a>
+    </div>
+  </div>
+
+  <h2>What to Watch For</h2>
+  <ul class="watchlist">
+    <li><strong>Samsung S95H UK pricing</strong> — US launched 2 April 2026; UK announcement expected any day</li>
+    <li><strong>Samsung S95H UK pre-orders</strong> — check Currys, John Lewis, Richer Sounds</li>
+    <li><strong>LG G6 55" UK price</strong> — 48" confirmed at £1,699 but 55" not yet listed</li>
+    <li><strong>S95F price drops</strong> — already at record low £1,499; may fall further once S95H lands in UK</li>
+  </ul>
+
+  <h2>Early 2026 / Late 2025 Context</h2>
+
+  <div class="news-card">
+    <h3>Samsung S95F — "TV of the Year 2025"</h3>
+    <p>The S95F won "TV of the Year" awards from TechRadar and others for 2025. As Samsung clears stock ahead of the S95H, prices have dropped sharply from £2,499 at launch. Samsung also offered trade-in bonuses and discounts for students, teachers, and key workers (up to 20% off) throughout the year.</p>
+    <div class="sources">Sources:
+      <a href="https://www.techradar.com/televisions/this-samsung-s95f-oled-tv-deal-takes-it-to-a-record-low-ahead-of-prime-day-and-theres-a-way-to-save-even-more">TechRadar</a> |
+      <a href="https://www.sammobile.com/news/samsung-is-slashing-prices-on-its-top-2025-oled-tv-in-the-uk/">SamMobile</a>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <h3>Sony Bravia 8 II — Outstanding Bundle Value</h3>
+    <p>The Bravia 8 II 55" (QD-OLED) launched at £2,499 and is now available at <strong>£1,299 at John Lewis with a 5-year guarantee and free Sony Bravia Theatre Bar 6 soundbar</strong>. Note: Sony's Bravia 9 is Mini LED, not OLED.</p>
+    <div class="sources">Sources:
+      <a href="https://www.whathifi.com/best-buys/tvs/best-oled-tvs">What Hi-Fi?</a> |
+      <a href="https://www.techradar.com/deals/best-oled-tv-prices-deals">TechRadar</a>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <h3>LG C5 and G5 — Strong Value as Older Stock</h3>
+    <p>With LG's 2026 range arriving, the 2025 C5 and G5 are excellent value. The <strong>C5 55" from ~£822</strong> (wall mount) and <strong>G5 55" from ~£999</strong>. Both use Tandem OLED evo panels — the G5 with the premium Primary RGB Tandem variant.</p>
+    <div class="sources">Sources:
+      <a href="https://www.idealo.co.uk/compare/206211153/lg-oled-g5-2025.html">Idealo G5</a>
+    </div>
+  </div>
+
+</div><!-- /news tab -->
+
+</main>
+
+<footer>
+  <p>For personal use &bull; Prices and news change frequently — always verify before buying &bull; Updated 15 April 2026</p>
+</footer>
+
+<script>
+function showTab(name, el) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  document.getElementById(name).classList.add('active');
+  el.classList.add('active');
+}
+</script>
+
+</body>
+</html>
