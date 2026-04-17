@@ -71,7 +71,7 @@
       border-color: var(--accent);
     }
     main {
-      max-width: 960px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 2rem 1.5rem;
     }
@@ -148,21 +148,30 @@
       width: 100%;
       border-collapse: collapse;
       font-size: 0.875rem;
+      line-height: 1.55;
     }
     th {
       background: var(--surface2);
       color: var(--muted);
       font-weight: 600;
       text-align: left;
-      padding: 0.6rem 0.75rem;
+      padding: 0.7rem 0.9rem;
       border-bottom: 2px solid var(--border);
       white-space: nowrap;
     }
     td {
-      padding: 0.6rem 0.75rem;
+      padding: 0.8rem 0.9rem;
       border-bottom: 1px solid var(--border);
       vertical-align: top;
     }
+    /* Give the last column (Deal / Notes) priority width — it holds the descriptive text */
+    table td:last-child, table th:last-child { width: 55%; min-width: 320px; }
+    /* Keep the first few columns from hogging space */
+    table td:first-child, table th:first-child { white-space: normal; }
+    /* 5-column wide tables (Model | Panel | Price | Status | Notes) */
+    table.wide td:nth-child(2), table.wide th:nth-child(2),
+    table.wide td:nth-child(3), table.wide th:nth-child(3),
+    table.wide td:nth-child(4), table.wide th:nth-child(4) { white-space: normal; }
     tr:last-child td { border-bottom: none; }
     tr:hover td { background: #1e1e1e; }
     a { color: var(--accent); text-decoration: none; }
