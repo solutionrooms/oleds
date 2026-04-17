@@ -1,6 +1,12 @@
-# 55" OLED TV Prices (UK) — Updated 17 April 2026
+# 55" OLED TV Prices (UK) — Updated 18 April 2026
 
 All prices are for the **55-inch** size. Prices fluctuate — check linked retailers for live pricing.
+
+---
+
+## 🔻 Price Drops Since Previous Run (17 → 18 April 2026)
+
+- **Samsung S90F 55" at Smiths TV: £999 → £879** (-£120) — new record low at a major UK retailer. Free 5-year Samsung warranty included. No code needed.
 
 ---
 
@@ -8,8 +14,8 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 
 | Model | Panel Type | UK Price | Status | Notes |
 |---|---|---|---|---|
-| **Samsung S95H** | QD-OLED | TBC | **US on sale** $2,499 (from 1 Apr) | UK price not yet announced. Expected end-April/early-May at £2,299–£2,499. 35% brighter than S95F, Glare Free 3.0, Art Mode. |
-| **Samsung S90H** | **QD-OLED** (55"/65"/77") | ~£1,599–£1,699 est. | **UK end-April expected** | 65" confirmed £2,699. Glare Free. 15% brighter than S90F. Corrected: 55" uses QD-OLED (42/48/83" use W-OLED). |
+| **Samsung S95H** | QD-OLED | TBC (est £2,299–£2,499) | **Pre-order open — ships 17 May** | Now pre-orderable at Samsung UK, John Lewis, Currys. UK price not public on listings yet. 35% brighter than S95F, Art Mode, Glare Free 3.0, 165Hz. |
+| **Samsung S90H** | **QD-OLED** (55"/65"/77") | ~£1,599–£1,699 est. | **UK end-April expected** | 65" confirmed £2,699. Glare Free. 15% brighter than S90F. 55" uses QD-OLED (42/48/83" use W-OLED). |
 | **LG G6** | Primary RGB Tandem OLED evo | **£2,199.99** | **Pre-order, ships mid-May** | Amazon UK pre-order confirmed. 5-star reviews. |
 | **LG C6** | Standard WOLED | **£1,699.99** | **Pre-order, ships mid-May** | Amazon UK pre-order confirmed. ⚠️ NOT Tandem OLED. C6 55" uses standard WOLED — weaker than C5's Tandem OLED evo. |
 | **Panasonic Z86C** | OLED SE (LG budget panel) | TBC | **Announced, no price** | UK's ONLY new 2026 Panasonic OLED. Fire TV. 55" and 65" only. Budget panel (below OLED evo). |
@@ -21,7 +27,7 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 | Model | Panel Type | Launch RRP | Best Price Now | Where |
 |---|---|---|---|---|
 | **Samsung S95F** | QD-OLED | £2,499 | **£1,599** (with code) | Richer Sounds £1,699 + `RSTV100` = £1,599. [Idealo](https://www.idealo.co.uk/compare/207075532/samsung-s95f-55.html) from £1,499. |
-| **Samsung S90F** | W-OLED | £1,899 | **£999** (with code) | Richer Sounds £1,199 + `RSTV200` = £999. Smiths TV £999 w/5yr Samsung warranty. Idealo from £879. |
+| **Samsung S90F** | W-OLED | £1,899 | **£879** ⬇ NEW LOW | **Smiths TV £879** (was £999, save £220 vs listed; free 5yr Samsung warranty). Alternative: Richer Sounds £999 via `RSTV200`. |
 | **Samsung S85F** | QD-OLED | ~£1,199 | **from ~£799** (with code) | Richer Sounds — check for latest RSTV code |
 | **Sony Bravia 8 II** | QD-OLED | £2,499 | **£1,799** (with code) | Smart Home Sounds £1,999 + `SHSTV200` = £1,799. Currys & Sony Direct £1,799. |
 | **Panasonic Z95B** (2025) | Primary RGB Tandem OLED | £2,299 | **£1,549 effective** | John Lewis £1,699 + code `PANA150OFF1500` = £1,549 |
@@ -52,10 +58,10 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 ### Smiths TV (smithstv.co.uk) — Free Next Day Delivery
 | Model | Price | Was | Deal |
 |---|---|---|---|
-| Samsung S90F 55" | **£999** | £1,299 | **Save £300.** Free 5-year Samsung warranty (customer redemption within 90 days). |
+| Samsung S90F 55" | **£879** ⬇ NEW LOW | £1,099 | **Save £220.** Free 5-year Samsung warranty (customer redemption within 90 days). Dropped from £999 on 18 Apr. |
 | Samsung S95F 55" | **£1,649** | — | Free 5-year Samsung warranty. |
-| LG C5 55" (OLED55C56LB) | **£999** ⬇ | £1,499 | **Save £500.** Free 5-year LG warranty. Price drop from £1,199. |
-| LG G5 55" (stand, OLED55G56LS) | **£1,549** ⬇ | £1,999 | **Save £450.** Free 5-year LG warranty. Price drop from £1,799. |
+| LG C5 55" (OLED55C56LB) | **£999** | £1,499 | **Save £500.** Free 5-year LG warranty. |
+| LG G5 55" (stand, OLED55G56LS) | **£1,549** | £1,999 | **Save £450.** Free 5-year LG warranty. |
 | LG G5 55" (wall, OLED55G54LW) | **£1,499** | £1,999 | **Save £500.** Free 5-year LG warranty. |
 
 ### Currys (currys.co.uk) — Codes Rotated: 15% / 10% off LG TVs
@@ -101,7 +107,7 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 
 ---
 
-## Discount Codes & Cashback (17 April 2026)
+## Discount Codes & Cashback (18 April 2026)
 
 | Code / Offer | Retailer | Applies To | Saving | Verified |
 |---|---|---|---|---|
@@ -159,13 +165,15 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 
 ---
 
-## Value Picks (17 April 2026)
+## Value Picks (18 April 2026)
 
 **🏆 Best current deal:** LG C5 55" — **£899 effective** (Richer Sounds £1,199 + `RSTV200` code → £999, then claim £100 LG cashback). Outstanding Tandem OLED evo at an exceptional price. **Better panel than the new 2026 LG C6 55".** Alternative: Smiths TV £999 code-free, 5yr warranty, no cashback waiting period.
 
+**🔻 Best budget pick (NEW LOW):** Samsung S90F 55" at **Smiths TV £879** — no code, free 5-year Samsung warranty, free next-day delivery. £120 cheaper than Richer Sounds with `RSTV200`. W-OLED but with 144Hz, NQ4 AI Gen3 and Vision AI.
+
 **Best Panasonic deal:** Z95B at **£1,549 effective** (John Lewis £1,699 + `PANA150OFF1500`). Primary RGB Tandem OLED with 5-year JL guarantee + Fire TV.
 
-**Best budget Samsung:** S90F 55" at Richer Sounds £1,199 + `RSTV200` = **£999** with 6-year guarantee — same price as Smiths TV (£999 w/ 5yr warranty). Add `180B650F` for £99 soundbar (worth £279). Also at Idealo from £879 (verify warranty/retailer).
+**Best budget Samsung:** S90F 55" at **Smiths TV £879** ⬇ (5yr Samsung warranty) — now cheapest at a major retailer. Alternative: Richer Sounds £1,199 + `RSTV200` = £999 with 6-year guarantee + add `180B650F` for £99 soundbar (worth £279). Idealo aggregator from £879.
 
 **Best flagship Samsung now:** S95F 55" at Richer Sounds £1,699 + `RSTV100` = **£1,599** with 6-year guarantee. Smiths TV £1,649 code-free. Samsung Direct £1,699 with free £100 sound device (valid to 12 May 2026). "TV of the Year 2025."
 
