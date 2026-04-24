@@ -1,10 +1,41 @@
-# 55" OLED TV Prices (UK) — Updated 23 April 2026 (11th automated run)
+# 55" OLED TV Prices (UK) — Updated 24 April 2026 (12th automated run)
 
 All prices are for the **55-inch** size. Prices fluctuate — check linked retailers for live pricing.
 
 ---
 
-## 🔻 Price Movement Since Previous Run (22 → 23 April 2026)
+## 🔻 Price Movement Since Previous Run (23 → 24 April 2026)
+
+- **🚨 BREAKTHROUGH — Samsung S95H 55" UK product URL LIVE for first time in 12 runs:** Direct product page at Samsung UK confirmed: [QE55S95HFTXXU at £2,399](https://www.samsung.com/uk/tvs/oled-tv/s95h-55-inch-4k-smart-tv-qe55s95hftxxu/) (was £3,299 RRP). SKU suffix is **`FTXXU` not `ATXXU`** — that's why previous URL guesses 404'd. **Pre-order all sizes currently "No longer available"** — allocation appears saturated. Siblings: 48" QE48S95HHEXXU @ £2,399 (was £2,799), 65" QE65S95HFTXXU @ £2,399 (was £2,799 — note same £2,399 across all sizes suggests placeholder pricing).
+- **🔻 Marks Electrical LG C5 55" back to £999** (was £1,199 yesterday, £999 day before). Reaffirms **£999 UK floor** for C5 55" across **three retailers** (Marks / Smiths TV / Richer Sounds with `RSTV200`). Bundle: +US70TY soundbar for £1,298.50 (save £299.50) + free tastecard £79.99.
+- **S90H 55" URL still NOT live** — tested `qe55s90hftxxu` → 404. S90H SKU suffix still unknown. Only S95H confirmed live today.
+- **Samsung S90F £949 at Richer Sounds** via `RSTV250` — unchanged from yesterday; **still UK low** for a major UK retailer.
+- **LG C5 at Richer Sounds (`RSTV200` = £999) and Smiths TV (£999) — unchanged.**
+- **Samsung S95F Samsung UK Direct £2,399 "No longer available" — 6th consecutive day.** S90F 55" Samsung UK status unchanged from yesterday (OOS, hiked).
+- Marks Electrical landing page codes today: **`MEMULTIBUY`** (5% for 2 / 10% for 3+) visible; `CLEAR-7`, `SAVE5`, `WEEKEND5`, `LGSAVE10`, `LGSAVE15` not visible.
+
+## ⏰ Expiring Promos (Act Now)
+
+- **Samsung UK "Up to £250 Trade Up"** — extended to **12 May 2026**. S95F Trade Up £150 off / S90F £100 off still listed. Functionally relevant for S95H (newly listed at Samsung UK) though all sizes currently OOS.
+- **Samsung UK Free Soundbar with 2026 pre-orders** — valid **22.04.2026 → 12.05.2026** for selected 2026 Micro RGB & OLED TVs. In principle applies to S95H pre-orders when they come back in stock.
+- **Sony HTA-range soundbar bundles (£200/£300/£500 off HTA8000/HTA9000/HTA9M2)** — expire **Tue 28 April 2026** (4 days remaining).
+- **Currys "25% off selected Sony soundbars" with any Sony TV** — also expires **Tue 28 April 2026**.
+- **Samsung free £100 sound device with select TVs** — continues to **12 May 2026**.
+- ~~Currys 15% / 10% off LG TVs~~ — expired 19 Apr 2026. No replacement code.
+
+## ⚠️ LG Cashback — Still Offline
+
+- LG UK's February 2026 TV cashback ended **17 March 2026**. No active LG cashback for the C5 55" today — "£899 effective" figure remains retired.
+
+### 🔁 Carry-over notes
+
+- Samsung S95H **UK direct URL confirmed 24 Apr** (QE55S95HFTXXU, £2,399 OOS pre-order). Buy path from major third-party retailers still pending.
+- Samsung S90H UK **still** unverified (9th consecutive run — URL pattern not yet live).
+- Both Samsung S95F AND S90F remain hiked + OOS at Samsung UK Direct. Primary buy paths remain Richer Sounds and Smiths TV.
+
+---
+
+## 🔻 Price Movement (22 → 23 April 2026)
 
 - **🔻🆕 NEW UK LOW — Samsung S90F 55" at Richer Sounds: £949 via new code `RSTV250`** (was £999 via `RSTV200`). £50 further reduction at a major UK retailer with 6-year guarantee. **Undercuts Smiths TV (£999 code-free).** First time Richer Sounds has gone below Smiths TV on this model.
 - **🆕 Samsung UK 2026 pre-orders LIVE** — free soundbar bundle with selected 2026 Micro RGB & OLED TVs, valid **22.04.2026 → 12.05.2026** ([Samsung UK offer page](https://www.samsung.com/uk/offer/tvs/)). **BUT:** direct S95H/S90H 55" URL patterns (`qe55s95hatxxu`, `qe55s95hatxxu`) still **404** — launch-offer page shows "no results" (JavaScript-gated). **8th consecutive run without a buyable UK flagship OLED URL**.
@@ -41,8 +72,8 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 
 | Model | Panel Type | UK Price | Status | Notes |
 |---|---|---|---|---|
-| **Samsung S95H** | QD-OLED | TBC | **UK pre-order banner active; S95H 55" URL still 404** | ✅ Samsung UK [launch-offer page](https://www.samsung.com/uk/tvs/launch-offer/) **now live 22 Apr** promoting 2026 pre-orders with free soundbar (to 12.05.2026). ⚠️ Direct S95H URL `qe55s95hatxxu` still 404 (8th run). US $2,499. |
-| **Samsung S90H** | W-OLED (all sizes — corrected) | TBC | **Reported UK end-April; URL still 404** | ⚠️ No QE55S90H UK retailer URL. 65" "£2,699" figure still not confirmed. US S90H shipping (42" $1,400 / 65" $2,699). |
+| **Samsung S95H** | QD-OLED | **£2,399** (pre-order, OOS) | 🆕 **UK URL CONFIRMED LIVE 24 Apr** at Samsung UK | 🆕 Direct pre-order URL: [QE55S95HFTXXU £2,399](https://www.samsung.com/uk/tvs/oled-tv/s95h-55-inch-4k-smart-tv-qe55s95hftxxu/) (was £3,299 RRP). **SKU ends `FTXXU` not `ATXXU`.** Pre-order currently **"No longer available"** (allocation saturated). Sibling: [48" QE48S95HHEXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-48-inch-4k-smart-tv-qe48s95hhexxu/) @ £2,399, [65" QE65S95HFTXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qe65s95hftxxu/) @ £2,399. Free soundbar pre-order offer (to 12.05.2026) should apply when back in stock. US $2,499. |
+| **Samsung S90H** | W-OLED (all sizes — corrected) | TBC | **Reported UK end-April; URL still 404** | ⚠️ `qe55s90hftxxu` tested today → 404. No UK URL 9th run. 65" "£2,699" figure still not confirmed. US S90H shipping (42" $1,400 / 65" $2,699). |
 | **LG G6** (stand) | Primary RGB Tandem OLED evo | **£2,199 + 🆕 FREE US70TR (£699)** | **Pre-order LIVE at Richer Sounds + Amazon UK** | 🆕 **Richer Sounds OLED55G66LS £2,199 NOW INCLUDES FREE LG US70TR Dolby Atmos soundbar (worth £699)** + 6-yr guarantee, stock due late April. Net package value vs TV-only competitors. |
 | **LG G6** (wall) | Primary RGB Tandem OLED evo | **£2,199 + 🆕 FREE US70TR (£699) + bracket** | **Pre-order LIVE at Richer Sounds** | 🆕 **Richer Sounds OLED55G64LW £2,199 NOW INCLUDES FREE LG US70TR soundbar (worth £699)** + wall bracket + 6-yr guarantee. Stock due late April. |
 | **LG C6** | Standard WOLED | **£1,699 + 🆕 FREE US60T (£249)** | **Pre-order LIVE at Richer Sounds + Amazon UK** | 🆕 **Richer Sounds OLED55C66LB £1,699 NOW INCLUDES FREE LG US60T soundbar (worth £249)** + 6-yr guarantee. ⚠️ Standard WOLED — weaker than C5's Tandem OLED evo. Stock due late April. |
@@ -68,12 +99,16 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 
 ## Retailer-by-Retailer Deals (April 2026)
 
-### Samsung Direct (samsung.com/uk) ⚠️ BOTH S95F and S90F still hiked + OOS; 2026 pre-order banner now live
+### Samsung Direct (samsung.com/uk) 🚨 S95H URL LIVE 24 Apr; S95F/S90F still hiked + OOS
 | Model | Price | Deal |
 |---|---|---|
-| S95F 55" | 🔺 **£2,399** — **No longer available** (5th consecutive day) | Samsung pricing out of S95F ahead of S95H launch. Trade Up £150 off (extended to 12.05.26) + £100 sound device (12 May) listed but moot if OOS. **Use Richer Sounds £1,599 or Smiths TV £1,649 instead.** |
-| S90F 55" | 🔺 **£2,399** — **No longer available** (3rd consecutive day) | S90F hiked + OOS. Trade Up £100 off listed. **Use Richer Sounds £949 (`RSTV250`) or Smiths TV £999 instead.** |
-| 2026 pre-order banner | Free soundbar | Valid **22.04.2026 → 12.05.2026** for selected 2026 Micro RGB & OLED TVs. [Samsung UK launch-offer page](https://www.samsung.com/uk/tvs/launch-offer/) live but flagship product URLs still 404. |
+| 🆕 **S95H 55" (2026)** | **£2,399** Pre-order (No longer available) | 🆕 **URL LIVE 24 Apr** — [QE55S95HFTXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-55-inch-4k-smart-tv-qe55s95hftxxu/). Was £3,299 RRP. Pre-order allocation saturated today — monitor for restock. Free-soundbar offer (to 12.05.26) + Trade Up applicable when buyable. |
+| 🆕 S95H 48" (2026) | £2,399 Pre-order (No longer available) | [QE48S95HHEXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-48-inch-4k-smart-tv-qe48s95hhexxu/). Was £2,799. Note: `HEXXU` suffix (different from 55"/65"). |
+| 🆕 S95H 65" (2026) | £2,399 Pre-order (No longer available) | [QE65S95HFTXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qe65s95hftxxu/). Was £2,799. ⚠️ Same £2,399 as 55" — likely placeholder pre-order pricing. |
+| S95F 55" | 🔺 **£2,399** — **No longer available** (6th consecutive day) | Samsung pricing out S95F ahead of S95H launch. Trade Up £150 off (extended to 12.05.26) + £100 sound device (12 May) listed but moot if OOS. **Use Richer Sounds £1,599 or Smiths TV £1,649 instead.** |
+| S90F 55" | 🔺 **£2,399** — **No longer available** (4th consecutive day) | S90F hiked + OOS. Trade Up £100 off listed. **Use Richer Sounds £949 (`RSTV250`) or Smiths TV £999 instead.** |
+| S90H 55" (2026) | TBC | ❌ URL still 404 (`qe55s90hftxxu`). 9th consecutive run with no direct UK URL. |
+| 2026 pre-order banner | Free soundbar | Valid **22.04.2026 → 12.05.2026** for selected 2026 Micro RGB & OLED TVs. [Samsung UK launch-offer page](https://www.samsung.com/uk/tvs/launch-offer/) live. S95H URL now backs the banner. |
 
 ### Richer Sounds (richersounds.com) — 6-Year TV Guarantee on all models
 | Model | Price | Deal |
@@ -134,7 +169,7 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 |---|---|---|---|
 | LG G5 55" stand (OLED55G56LS) | **£1,549** | **£1,489** | In stock. Marks+ member price = £60 off. |
 | LG G5 55" wall (OLED55G54LW) | **£1,499** | **£1,439** | ⚠️ LOW STOCK. Cheapest G5 55" in UK at Marks+. |
-| LG C5 55" (OLED55C56LB) | **£1,199** ⬆️ | — | ⬆️ **Reverted from £999 yesterday**. Bundle: TV+US70TY soundbar for £1,498.50 (save £299.50). Free tastecard £79.99. 50% off selected soundbars. |
+| LG C5 55" (OLED55C56LB) | **🔻 £999** (was £1,199) | — | 🔻 **Back to £999 today** (was £999 on 22 Apr, £1,199 on 23 Apr). In stock, free next-day delivery. Bundle: TV+US70TY soundbar for £1,298.50 (save £299.50). Free tastecard £79.99. |
 
 ### Peter Tyson (petertyson.co.uk) — Authorised Dealer, 0% Finance
 | Model | Notes |
@@ -209,13 +244,15 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 
 ---
 
-## Value Picks (23 April 2026)
+## Value Picks (24 April 2026)
 
-**🔻🆕 TODAY'S HEADLINE: Samsung S90F 55" at £949 at Richer Sounds** — new code `RSTV250` at checkout (was `RSTV200` / £999). **UK low.** 6yr guarantee. For a flagship W-OLED Samsung at a major retailer with top-tier warranty, this is now the cheapest path in the UK by £50 vs Smiths TV. Separately add `180B650F` for £99 HW-B650F soundbar.
+**🚨 TODAY'S HEADLINE: Samsung S95H 55" UK URL LIVE at Samsung UK Direct** — [QE55S95HFTXXU @ £2,399](https://www.samsung.com/uk/tvs/oled-tv/s95h-55-inch-4k-smart-tv-qe55s95hftxxu/) (was £3,299 RRP). First direct UK buy path for the 2026 flagship after 8 runs without one. **But all sizes "No longer available"** — pre-order allocation already saturated. Monitor for restock + enjoy the free-soundbar pre-order offer (to 12.05.2026) whenever buyable again.
+
+**🏆 UK LOW: Samsung S90F 55" at £949 at Richer Sounds** via `RSTV250` at checkout (was `RSTV200` / £999 last week). **Still UK low** — unchanged from 23 Apr. 6yr guarantee. Cheapest path for a flagship W-OLED Samsung at a major retailer with top-tier warranty. Separately add `180B650F` for £99 HW-B650F soundbar.
 
 **🆕 BEST 2026 BUNDLE:** LG G6 55" at Richer Sounds — **£2,199 + FREE LG US70TR Dolby Atmos soundbar (worth £699)** auto-included, with 6-yr guarantee. Net effective TV-only cost ~£1,500. Strongest 2026 OLED bundle in the UK. Stock due late April. Wall variant (`OLED55G64LW`) also adds the wall bracket.
 
-**🏆 Best LG C5 deal:** LG C5 55" — **£999 code-free at Smiths TV** or £999 at checkout at Richer Sounds (`RSTV200`). ⚠️ Marks Electrical C5 reverted to **£1,199** today (yesterday's £999 appears to have been a brief flash). LG's own cashback promotion is currently offline (Feb 2026 promo ended 17 March) so the previously printed "£899 effective" figure does not apply today. Outstanding Tandem OLED evo — **better panel than the new 2026 LG C6 55".** Smiths TV gives 5-yr LG warranty, Richer Sounds 6-yr guarantee.
+**🔻 Best LG C5 deal (THREE-WAY TIE):** LG C5 55" now at **£999** at **Marks Electrical** (back today from £1,199, code-free), **Smiths TV** (£999 code-free, 5yr LG warranty), and **Richer Sounds** (£1,199 + `RSTV200` = £999 at checkout, 6yr guarantee). Three UK retailers at £999 floor — pick by warranty. Marks includes free US70TY soundbar bundle at £1,298.50 (save £299.50). ⚠️ LG cashback still offline (Feb 2026 promo ended) — no "£899 effective" claim today. Outstanding Tandem OLED evo — **still better panel than the 2026 LG C6 55".**
 
 **🔻 Cheapest G5 55":** LG G5 55" wall at **Marks Electrical £1,439 (Marks+)** / £1,499 non-member. £60 below Smiths TV and the lowest we've seen for a Primary RGB Tandem OLED 55" code-free.
 
@@ -229,7 +266,7 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 
 **Best new 2026 pick:** LG G6 55" at **£2,199 + FREE LG US70TR soundbar (worth £699)** at **Richer Sounds** with 6-yr guarantee. Stock due late April. Primary RGB Tandem OLED 2.0, brighter than G5. Net effective TV-only cost (after valuing soundbar at retail) ~£1,500 — narrows the gap to the 2025 G5 wall (**£1,439 Marks+**, no soundbar). New [What Hi-Fi G6 review (9 Apr)](https://www.whathifi.com/tv-home-cinema/televisions/lg-g6) gave Picture 4/5, Sound 3/5, Features 5/5 — flag: some colour oversaturation in Filmmaker Mode. [TechRadar (21 Apr)](https://www.techradar.com/televisions/home-theater-fans-will-be-happy-the-lg-g6-oled-tv-fixes-this-overlooked-picture-issue-its-predecessors-had-but-theres-a-catch) confirms G6 fixes HDR10 colour banding but Dolby Vision banding can be **worse** than G5 — monitor for firmware fixes.
 
-**Wait for S95H if:** Samsung's 2026 flagship QD-OLED — 35% brighter than S95F, Glare Free 3.0, Art Mode. US on sale at $2,499. 🆕 **Samsung UK pre-order banner LIVE 22 Apr** (free soundbar with selected 2026 OLEDs, valid to 12.05.2026) — but the specific S95H/S90H 55" product URLs still return 404 (**8th consecutive run**). Pre-order claim stays unverified. Continue to watch [Samsung UK launch-offer page](https://www.samsung.com/uk/tvs/launch-offer/). Separately, [ITSC News (6 Apr) LG G6 vs Samsung S95H shootout](https://www.itscnews.com/news/lg-g6-vs-samsung-s95h-i-compared-the-best-oled-tvs-of-2026-and-made-a-tough-choice/) chose the S95H on audio/gaming/remote/panel validation — LG G6 still preferred for design and AI integration.
+**Wait for S95H if:** Samsung's 2026 flagship QD-OLED — 35% brighter than S95F, Glare Free 3.0, Art Mode, new NQ4 AI Gen 3 processor. US on sale at $2,499. 🚨 **Samsung UK product URL confirmed LIVE 24 Apr** at [£2,399 / QE55S95HFTXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-55-inch-4k-smart-tv-qe55s95hftxxu/) — but all sizes "No longer available" today (pre-order allocation saturated). New [TechRadar hands-on](https://www.techradar.com/televisions/ive-lived-with-samsungs-new-flagship-oled-tv-and-ive-never-seen-anything-quite-like-it) reports ~4,500 nits small HDR / ~2,800 nits 10% window, Filmmaker Mode "most accurate ever" in Calman, optional Wireless One Connect box. Free-soundbar offer (12.05.26) applies when buyable. [ITSC News shootout](https://www.itscnews.com/news/lg-g6-vs-samsung-s95h-i-compared-the-best-oled-tvs-of-2026-and-made-a-tough-choice/) still rates S95H > G6 on audio/gaming/remote/panel validation; G6 still preferred for design.
 
 **Avoid if upgrading from C5:** The 2026 LG C6 55" uses standard WOLED — a weaker panel than the C5's Tandem OLED evo. Even with the new £249 free US60T soundbar bundle at Richer Sounds, the C6 at £1,699 is still poorer value than the C5 at £999 effective. Consider the G6 (with £699 free soundbar), G5 wall at £1,439 Marks+, or the Panasonic Z95B at £1,549 instead.
 
@@ -258,6 +295,12 @@ All prices are for the **55-inch** size. Prices fluctuate — check linked retai
 - [PriceSpy — Samsung S90F 55"](https://pricespy.co.uk/product.php?p=14917573)
 - [PriceSpy — Sony Bravia 8 II 55"](https://pricespy.co.uk/product.php?p=14811860)
 - [Samsung UK — S95F 55"](https://www.samsung.com/uk/tvs/oled-tv/s95f-55-inch-oled-4k-smart-tv-qe55s95fatxxu/)
+- 🆕 [**Samsung UK — S95H 55" QE55S95HFTXXU (LIVE)**](https://www.samsung.com/uk/tvs/oled-tv/s95h-55-inch-4k-smart-tv-qe55s95hftxxu/)
+- 🆕 [Samsung UK — S95H 48" QE48S95HHEXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-48-inch-4k-smart-tv-qe48s95hhexxu/)
+- 🆕 [Samsung UK — S95H 65" QE65S95HFTXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qe65s95hftxxu/)
+- 🆕 [TechRadar — S95H hands-on review (lived with flagship OLED)](https://www.techradar.com/televisions/ive-lived-with-samsungs-new-flagship-oled-tv-and-ive-never-seen-anything-quite-like-it)
+- 🆕 [What Hi-Fi? — Samsung S95H hands-on](https://www.whathifi.com/tv-home-cinema/televisions/samsung-s95h)
+- 🆕 [Smart Home Sounds — Samsung S95H first-look review](https://www.smarthomesounds.co.uk/blog/faqs/samsung-s95h-review)
 - [Richer Sounds — 55" OLED TVs](https://www.richersounds.com/tv-projectors/tvs-accessories/tvs/oled-tvs/)
 - [Smiths TV — OLED TVs](https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html)
 - [Marks Electrical — OLED TVs](https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs)
