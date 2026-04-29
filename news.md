@@ -1,4 +1,135 @@
-# 55" OLED TV News (UK) — Updated 28 April 2026
+# 55" OLED TV News (UK) — Updated 29 April 2026
+
+---
+
+## 29 April 2026 (17th Automated Run): 🚨 **LG G5 55" — TWIN UK LOWS at Smiths TV** — wall £1,399 (was £1,499) AND stand £1,449 (was £1,499) — **both undercut yesterday's Marks+ floor by £40**, Smiths now solo cheapest UK G5 retailer; ⚠️ **Marks Electrical LG G5 WALL HIKED MASSIVELY £1,499 → £2,099** (+£600 in one day, likely anomaly), Marks G5 stand actually DROPPED slightly to £1,499 / Marks+ £1,473; ❌ **Sony HTA bundles EXPIRED yesterday** + Currys 25% off Sony soundbars expired — only weak £70/£100 deals remain to 30 Jun; 🆕 **Samsung PayPal £100 extra discount** (QLED Trade Up only) found, expires Fri 1 May; 🆕 **LG G6 firmware update** dropped 2% HDR brightness 3,326 → 2,504 nits (-25%) per TechRadar; 🎬 **Two new G6 vs G5 YouTube comparisons surfaced**; Samsung S95H FTXXU "Pre-order" holds 2nd day (£2,399); Samsung S99H ATXXU OOS 6th day but pricing display unified to £400 saving today; Samsung S95F £1,499 holds 5th day; Samsung S90F £949 holds 7th day at RS; LG C5 £999 3-way tie holds; **S90H 55" UK URL — 14th consecutive 404**; JL QE55S95H **STILL UNVERIFIED** 8th day (timeouts continue)
+
+### 🚨 NEW UK LOW — LG G5 55" wall £1,399 / stand £1,449 at Smiths TV
+
+A direct fetch today of [Smiths TV's OLED listings](https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html) shows **two material price drops on the LG G5 55" range**:
+
+- **LG OLED55G54LW (G5 wall mount)** — **£1,499 → £1,399 code-free** (-£100 in 24h). 🚨 **NEW UK LOW** — beats yesterday's Marks+ £1,439 by £40.
+- **LG OLED55G56LS (G5 stand)** — **£1,499 → £1,449 code-free** (-£50). 🚨 **NEW UK LOW** — beats yesterday's Marks+ £1,489 by £40.
+
+Both prices are **code-free** (no checkout discount required) and include **Smiths TV's free 5-year LG warranty**. These are the **first sub-£1,439 prices on the G5 wall** at any major UK retailer since tracking began, and the first sub-£1,489 prices on the G5 stand.
+
+**Buyer-actionable takeaway:**
+- For non-Marks+ buyers, Smiths TV is now the **clear cheapest UK G5 path** for both wall and stand.
+- Even Marks+ members are now beaten — the Marks+ wall today is £1,994 (after the hike — see next item) and Marks+ stand is £1,473, both above Smiths code-free.
+- 5-year warranty parity: Smiths' 5-yr LG warranty matches Marks Electrical 1-yr + Marks+ extras; Richer Sounds still has the longest 6-yr guarantee but doesn't stock G5 at competitive pricing.
+
+Smiths' cut puts them **£600 below Marks Electrical's hiked wall price today** — a remarkable spread. If the Marks hike is an error and reverses tomorrow, Smiths' £1,399 will still likely hold the new UK floor.
+- Source: [Smiths TV — OLED TVs landing page](https://www.smithstv.co.uk/tv-and-entertainment/tv/oled-tv.html) (fetched 29 Apr 2026)
+
+### ⚠️ Marks Electrical LG G5 WALL HIKED MASSIVELY £1,499 → £2,099 (+£600)
+
+A direct fetch today of [Marks Electrical's OLED TVs landing page](https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs) shows the **LG OLED55G54LW (G5 wall) jumped from £1,499 to £2,099** (+£600), and the Marks+ price from £1,439 to **£1,994** (+£555). The "was" reference price also changed from £1,999 → **£2,499** — a wholesale repricing of this SKU.
+
+**Notable anomalies:**
+- 55" G5 wall at Marks **now matches the 65" G5 stand price** (£2,099 / Marks+ £1,994). Both are listed at the same level — unusual, since the 65" should logically be more expensive than the 55" wall.
+- The G5 STAND at Marks **moved in the OPPOSITE direction**: £1,549 → £1,499 (Marks+ £1,489 → £1,473) — a small drop. So today the G5 stand is **CHEAPER** than the G5 wall at Marks (a reversal of the normal hierarchy where wall variants are cheaper because they don't include a stand).
+
+This pattern strongly suggests the wall hike is a **data-entry / catalog error**, possibly with the 55" wall and 65" stand SKUs swapped. Worth re-checking tomorrow's run — if Marks doesn't correct the listing within 48h it may be deliberate. Either way, **Marks has lost the cheapest UK G5 wall position today**, and Smiths TV's £1,399 (above) easily beats Marks' £1,994 Marks+ price.
+
+Marks landing page promo codes today: ✅ `MEMULTIBUY` (5%/10%) only — `WEEKEND5`, `CLEAR-7`, `SAVE5`, `LGSAVE10`, `LGSAVE15` not visible. **Marks+ pricing is back today** across the lineup (visible without member login).
+- Source: [Marks Electrical OLED TVs](https://markselectrical.co.uk/tv-and-entertainment/televisions/oled-tvs) (fetched 29 Apr 2026)
+
+### ❌ Sony soundbar bundles EXPIRED — only weak fallback offers remain
+
+As scheduled, the Sony Direct **£200 off HTA8000 / £300 off HTA9000 / £500 off HTA9M2 Theatre Quad** bundles expired yesterday (28 April 2026). Currys' **25% off selected Sony soundbars** with any Sony TV also expired the same day.
+
+**What's still active for Bravia 8 II buyers:**
+- £70 off HTAN7 Neckband (valid to 30 Jun 2026)
+- £100 off HTS60 Soundbar (valid to 30 Jun 2026)
+- **🆕 Sevenoaks bundled HTA prices on the Bravia 8 II page persist today**: HTA9M2 Theatre Quad £1,499 (was £2,499), Theatre Bar 9 £699 (was £1,399), Theatre Bar 8 £599 (was £999) — these are Sevenoaks-direct prices not gated to a TV purchase, and may have a longer shelf-life than Sony Direct's promo.
+
+**TV-only price floor unchanged at £1,799 effective:**
+- [Smart Home Sounds £1,999 + `SHSTV200`](https://www.smarthomesounds.co.uk/sony-bravia-8-ii-55) (SHS 403 today, code assumed valid)
+- [Sevenoaks Sound and Vision £1,999 + `GDTV200`](https://www.sevenoakssoundandvision.co.uk/p-69084-sony-bravia-8-ii-k55xr8m2-55-4k-uhd-oled-tv.aspx) (re-fetched today, valid to 19 May 2026, free 5-yr Sony warranty, Kingston still in stock)
+- Currys £1,799 / Sony Direct £1,799 (both 403 today)
+
+### 🆕 Samsung PayPal £100 Extra Discount — QLED Trade Up only — expires 1 May 2026
+
+A direct fetch today of [Samsung UK's offers page](https://www.samsung.com/uk/offer/tvs/) reveals an offer not previously surfaced in our tracking:
+
+> **QLED Trade Up:** "Up to £100 off select QLED TVs with Trade Up. **PayPal buyers receive additional £100 discount (04.03.26–01.05.26)**."
+
+**Important caveats:**
+- Applies to **QLED Trade Up only — NOT OLED Trade Up.** OLED Trade Up tops out at £250 (S95F £150 / S90F £100), with no PayPal stack today.
+- **Expires this Friday 1 May 2026 — 3 days remaining.**
+- Triggered by paying via PayPal at checkout — no code needed.
+- This is the first PayPal-gated discount we've identified at Samsung UK. May indicate Samsung is testing payment-method-tied discounts ahead of the 2026 OLED launch wave.
+
+**Buyer-actionable takeaway:** if you're cross-shopping Samsung S90F (OLED) vs an equivalent QLED Neo (e.g., Samsung QN95F mini-LED) and considering Trade Up, the QLED route gets an extra £100 off via PayPal until Friday — could shift the OLED-vs-QLED maths for 3 more days.
+- Source: [Samsung UK — Offers Page](https://www.samsung.com/uk/offer/tvs/) (fetched 29 Apr 2026)
+
+### 🆕 LG G6 firmware update — HDR brightness DROPPED 25% on 2% window
+
+A new TechRadar article surfaced today reports that **LG has shipped a firmware update to the G6 OLED** which has materially changed peak HDR brightness measurements:
+
+- **2% window HDR Filmmaker Mode:** **3,326 nits → 2,504 nits** post-update (a **24.7% reduction**).
+- TechRadar re-tested side-by-side vs the G5 after the update: **G6 still wins on reflection-handling, fullscreen brightness, and colour refinement**, but the gap is narrower than at launch firmware.
+
+**Why it matters for buyers:**
+- The G6's launch headline brightness numbers (peak 3,326 nits) are no longer accurate. Reviewers may need to re-publish numbers.
+- This may be why Vincent Teoh's HDTVTest **G6 full review was delayed pending firmware** earlier this month — the brightness pull-back is an LG calibration choice (likely tone-mapping refinement) and is unlikely to reverse.
+- The G6's bundled value at Richer Sounds (£2,199 + free £699 US70TR soundbar) is **unchanged** by the firmware. Real-world picture quality hasn't degraded — only the peak measurement has been adjusted.
+
+The G5 also remains a very strong choice given Smiths TV's new £1,399 wall / £1,449 stand prices today (above), particularly since the G5's measurements are unaffected by post-launch firmware adjustments.
+- Source: [TechRadar — LG G6 firmware update side-by-side vs G5](https://www.techradar.com/televisions/the-lg-g6-oled-tv-got-a-picture-changing-firmware-update) (referenced 29 Apr 2026)
+
+### 🎬 New YouTube content — TWO G6 vs G5 comparison videos surfaced today
+
+Two new comparison videos found this run (both useful for buyers weighing the £760+ price gap between the LG G5 (£1,399 Smiths) and LG G6 (£2,199 Richer Sounds w/ free soundbar)):
+
+- 🆕 [LG G6 vs G5 OLED evo (2026 vs 2025) — Side‑by‑Side Picture Test, Brightness and Reflection](https://www.youtube.com/watch?v=5eZwNcw3YVA) — direct measurement-based comparison covering brightness and reflection-handling.
+- 🆕 [LG G6 VS G5! The G5 STRIKES BACK?](https://www.youtube.com/watch?v=eUfJoNlJjbs) — framed as G5-favourable; useful counterweight to the G6-leaning launch coverage.
+
+**No NEW HDTVTest video** in the last 24h. Vincent's **G6 full review remains pending firmware** — given today's G6 firmware drop (above), Vincent may need to re-test before publishing. There's also no published HDTVTest review of the Samsung S90H yet (UK URL still 404, 14th day) and Vincent's S99H/S95H 26 Apr review (renamed yesterday to "Has A MASSIVE BEZEL!") is still the only HDTVTest 2026 Samsung deep-dive.
+
+### 🔁 Reconfirmed prices today (product-page fetches)
+
+| Retailer / Model | Price Today | vs 28 Apr |
+|---|---|---|
+| Samsung UK QE55S95HFTXXU (S95H 55") | **£2,399** "Pre-order" (was £2,799) | unchanged price + status (2nd day) — saving display still £400 |
+| Samsung UK QE55S99HATXXU (S99H 55" — same product) | **£2,399** "Out of Stock" (was £3,299, but saving today shows £400) | 🔁 **Pricing display unified with FTXXU** — yesterday saving was £900 |
+| Samsung UK S90H 55" (`qe55s90hftxxu` + `qe55s90haexxu`) | All 404 (14th day) | unchanged |
+| Samsung UK S95F 55" (QE55S95FATXXU) | £2,399 "No longer available" (RRP £3,299) | unchanged — 11th day OOS |
+| Samsung UK S90F 55" (QE55S90FAEXXU) | £2,399 "No longer available" (RRP £3,299) | unchanged — 9th day OOS |
+| Richer Sounds Samsung QE55S95F | £1,699 (→ £1,499 via `RSTV200`) | unchanged — 5th day at floor |
+| Richer Sounds Samsung QE55S90F | £1,199 (→ £949 via `RSTV250`) | unchanged — 7th day at floor |
+| Richer Sounds LG OLED55C56LB (C5) | £1,199 (→ £999 via `RSTV200`) | unchanged |
+| Richer Sounds LG G6 OLED55G66LS (stand) | £2,199 + FREE US70TR (£699) | unchanged — pre-order, "stock due late April" (loosened from "end of April") |
+| Richer Sounds LG C6 OLED55C66LB | £1,699 + FREE US60T (£199) via `FREECUS60T` | unchanged |
+| 🚨 **Smiths TV LG OLED55G54LW (G5 wall)** | **£1,399** (was £1,499) | 🚨 **-£100 / NEW UK LOW** (beats yesterday's Marks+ £1,439) |
+| 🚨 **Smiths TV LG OLED55G56LS (G5 stand)** | **£1,449** (was £1,499) | 🚨 **-£50 / NEW UK LOW** (beats yesterday's Marks+ £1,489) |
+| Smiths TV Samsung QE55S95F | £1,499 (was £1,649) | unchanged — 5th day at floor |
+| ⚠️ Smiths TV Samsung QE55S90F | £1,299 (was £1,899) | unchanged — hike holds 5th day |
+| Smiths TV LG OLED55C56LB (C5) | £999 (was £1,499) | unchanged |
+| Marks Electrical LG OLED55C56LB (C5) | £999 (was £1,199) | unchanged |
+| ⚠️🚨 **Marks Electrical LG OLED55G54LW (G5 wall)** | **£2,099 / Marks+ £1,994** (was £1,499 / Marks+ £1,439) | ⚠️ **+£600 HIKE — likely anomaly** (now matches 65" stand price) |
+| 🔻 Marks Electrical LG OLED55G56LS (G5 stand) | **£1,499 / Marks+ £1,473** (was £1,549 / Marks+ £1,489) | 🔻 **-£50 / Marks+ -£16** |
+| Marks Electrical LG OLED55B56LA (B5) | £849 (was £999) | unchanged |
+| Sevenoaks Sound and Vision Sony K55XR8M2 (Bravia 8 II 55") | £1,999 (→ **£1,799** via `GDTV200`) | unchanged — valid to 19 May, Kingston in stock, free 5yr warranty |
+
+### 🔁 Currys + John Lewis: Samsung S95H listing — 8th consecutive day with no verified URL
+- John Lewis search timed out (60s) again. Search snippet still claims [QE55S95H + free HW-Q600F soundbar](https://www.johnlewis.com/) listing exists, but **direct fetch still impossible** — VERIFICATION RULES status remains **"Reported pre-orders (unverified)"** for John Lewis (8th consecutive day).
+- Currys product pages returned **403** anti-bot today (8th day).
+- Sony Direct (Bravia 8 II URL) returned **403** today (8th day).
+- Smart Home Sounds returned **403** today (4th day).
+- Amazon UK search returned **503** today.
+- **Samsung UK Direct remains the sole verified UK pre-order path** for the 2026 S95H — and that route is **back to "Pre-order" status** (2nd day after 4 OOS days).
+
+### Best Current Deals Summary (verified 29 April 2026)
+- **🚨🆕 LG G5 55" UK low — TWO NEW LOWS at Smiths TV: wall £1,399 / stand £1,449 code-free.**
+- **Samsung S95H 55" UK pre-order LIVE (2nd day) — £2,399** at [Samsung UK QE55S95HFTXXU](https://www.samsung.com/uk/tvs/oled-tv/s95h-55-inch-4k-smart-tv-qe55s95hftxxu/).
+- **Samsung S95F 55" UK low £1,499** — Richer Sounds `RSTV200` OR Smiths TV code-free (5th day at floor).
+- **Samsung S90F 55" UK low £949** — Richer Sounds `RSTV250` (7th day at floor).
+- **LG C5 55" three-way tie £999** — Marks / Smiths / Richer Sounds (`RSTV200`).
+- **LG G6 55" + FREE US70TR (£699 soundbar)** — Richer Sounds £2,199 (auto-applied).
+- **LG C6 55" + FREE US60T (£199 soundbar)** — Richer Sounds £1,699 + `FREECUS60T`.
+- **Sony Bravia 8 II 55" — £1,799 effective** at Sevenoaks (`GDTV200`, valid to 19 May, free 5-yr Sony warranty) OR SHS (`SHSTV200`, code assumed valid). 🚨 Sony HTA bundles EXPIRED 28 Apr — only £70/£100 deals on HTAN7/HTS60 remain.
+- **Panasonic Z95B 55" — £1,549 effective** at John Lewis + `PANA150OFF1500`.
 
 ---
 
